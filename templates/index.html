@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Jogos</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-neon">Jogos</h1>
+    </header>
+    <div class="container">
+        <a href="{{ url_for('cobrinha') }}" class="button">Jogo da Cobrinha</a>
+        <a href="{{ url_for('adivinha_palavra') }}" class="button">Jogo de Adivinhação de Palavras</a>
+    </div>
+</body>
+
+</html>
+

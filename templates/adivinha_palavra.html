@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação de Palavras</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Jogo de Adivinhação de Palavras</h1>
+            <form method="POST">
+                <div id="word-container">
+                    {% for i in range(5) %}
+                        <div class="attempt-row">
+                            {% if i < tentativas|length %}
+                                {% for letter in tentativas[i] %}
+                                    <input type="text" class="letter-field {{ letter[1] }}" value="{{ letter[0] }}" readonly>
+                                {% endfor %}
+                            {% else %}
+                                {% for j in range(palavra|length) %}
+                                    <input type="text" class="letter-field default" maxlength="1" name="tentativa" id="letter-{{ i }}-{{ j }}">
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+                {% if tentativas_restantes > 0 %}
+                    <button type="submit" class="button">Enviar Tentativa</button>
+                {% else %}
+                    <p>Você já usou todas as tentativas!</p>
+                {% endif %}
+                {% if mensagem %}
+                    <p class="message-container">{{ mensagem }}</p>
+                {% endif %}
+                {% if not vitoria and tentativas_restantes <= 0 %}
+                    <div class="word-reveal">
+                        <h2>A palavra era: {{ palavra }}</h2>
+                    </div>
+                {% endif %}
+            </form>
+            <a href="{{ url_for('index') }}" class="button">Voltar para o Início</a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/adivinha_palavra.js') }}"></script>
+</body>
+
+</html>

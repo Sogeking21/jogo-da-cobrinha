@@ -1,0 +1,1714 @@
+2024-07-27 21:17:43,083 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-27 21:17:43,083 INFO [33mPress CTRL+C to quit[0m
+2024-07-27 21:17:43,088 INFO  * Restarting with stat
+2024-07-27 21:17:43,427 WARNING  * Debugger is active!
+2024-07-27 21:17:43,433 INFO  * Debugger PIN: 108-158-121
+2024-07-27 21:18:14,780 DEBUG Nova Palavra: carro
+2024-07-27 21:18:14,788 INFO 127.0.0.1 - - [27/Jul/2024 21:18:14] "GET / HTTP/1.1" 200 -
+2024-07-27 21:18:14,880 INFO 127.0.0.1 - - [27/Jul/2024 21:18:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:18:14,882 INFO 127.0.0.1 - - [27/Jul/2024 21:18:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:18:22,275 DEBUG Tentativa: a
+2024-07-27 21:18:22,276 DEBUG Palavra: carro
+2024-07-27 21:18:22,276 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:18:22,276 DEBUG Tentativas Restantes: 5
+2024-07-27 21:18:22,276 DEBUG Tentativas: []
+2024-07-27 21:18:22,276 DEBUG Vit�ria: False
+2024-07-27 21:18:22,276 INFO 127.0.0.1 - - [27/Jul/2024 21:18:22] "POST / HTTP/1.1" 200 -
+2024-07-27 21:18:22,308 INFO 127.0.0.1 - - [27/Jul/2024 21:18:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:18:22,312 INFO 127.0.0.1 - - [27/Jul/2024 21:18:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:18:29,203 DEBUG Tentativa: porta
+2024-07-27 21:18:29,203 DEBUG Palavra: carro
+2024-07-27 21:18:29,203 DEBUG Resultado: [('p', 'default'), ('o', 'incorrect'), ('r', 'correct'), ('t', 'default'), ('a', 'incorrect')]
+2024-07-27 21:18:29,203 DEBUG Tentativas Restantes: 4
+2024-07-27 21:18:29,203 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:18:29,203 DEBUG Vit�ria: False
+2024-07-27 21:18:29,204 INFO 127.0.0.1 - - [27/Jul/2024 21:18:29] "POST / HTTP/1.1" 200 -
+2024-07-27 21:18:29,240 INFO 127.0.0.1 - - [27/Jul/2024 21:18:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:18:29,241 INFO 127.0.0.1 - - [27/Jul/2024 21:18:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:18:40,746 DEBUG Tentativa: carro
+2024-07-27 21:18:40,746 DEBUG Palavra: carro
+2024-07-27 21:18:40,746 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('r', 'correct'), ('r', 'correct'), ('o', 'correct')]
+2024-07-27 21:18:40,746 DEBUG Tentativas Restantes: 3
+2024-07-27 21:18:40,746 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('p', 'default'), ('o', 'incorrect'), ('r', 'correct'), ('t', 'default'), ('a', 'incorrect')]]
+2024-07-27 21:18:40,746 DEBUG Vit�ria: False
+2024-07-27 21:18:40,747 INFO 127.0.0.1 - - [27/Jul/2024 21:18:40] "POST / HTTP/1.1" 200 -
+2024-07-27 21:18:40,773 INFO 127.0.0.1 - - [27/Jul/2024 21:18:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:18:40,781 INFO 127.0.0.1 - - [27/Jul/2024 21:18:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:18:58,449 DEBUG Tentativa: cnh
+2024-07-27 21:18:58,449 DEBUG Palavra: carro
+2024-07-27 21:18:58,449 DEBUG Resultado: [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:18:58,449 DEBUG Tentativas Restantes: 3
+2024-07-27 21:18:58,449 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('p', 'default'), ('o', 'incorrect'), ('r', 'correct'), ('t', 'default'), ('a', 'incorrect')]]
+2024-07-27 21:18:58,449 DEBUG Vit�ria: True
+2024-07-27 21:18:58,450 INFO 127.0.0.1 - - [27/Jul/2024 21:18:58] "POST / HTTP/1.1" 200 -
+2024-07-27 21:18:58,477 INFO 127.0.0.1 - - [27/Jul/2024 21:18:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:18:58,483 INFO 127.0.0.1 - - [27/Jul/2024 21:18:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:19:36,020 DEBUG Tentativa: cnh
+2024-07-27 21:19:36,020 DEBUG Palavra: carro
+2024-07-27 21:19:36,020 DEBUG Resultado: [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:19:36,020 DEBUG Tentativas Restantes: 2
+2024-07-27 21:19:36,020 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('p', 'default'), ('o', 'incorrect'), ('r', 'correct'), ('t', 'default'), ('a', 'incorrect')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:19:36,021 DEBUG Vit�ria: True
+2024-07-27 21:19:36,021 INFO 127.0.0.1 - - [27/Jul/2024 21:19:36] "POST / HTTP/1.1" 200 -
+2024-07-27 21:19:36,047 INFO 127.0.0.1 - - [27/Jul/2024 21:19:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:19:36,048 INFO 127.0.0.1 - - [27/Jul/2024 21:19:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:19:39,040 DEBUG Tentativa: cnh
+2024-07-27 21:19:39,040 DEBUG Palavra: carro
+2024-07-27 21:19:39,040 DEBUG Resultado: [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:19:39,040 DEBUG Tentativas Restantes: 1
+2024-07-27 21:19:39,040 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('p', 'default'), ('o', 'incorrect'), ('r', 'correct'), ('t', 'default'), ('a', 'incorrect')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:19:39,040 DEBUG Vit�ria: True
+2024-07-27 21:19:39,041 INFO 127.0.0.1 - - [27/Jul/2024 21:19:39] "POST / HTTP/1.1" 200 -
+2024-07-27 21:19:39,065 INFO 127.0.0.1 - - [27/Jul/2024 21:19:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:19:39,065 INFO 127.0.0.1 - - [27/Jul/2024 21:19:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:20:24,535 DEBUG Tentativa: cnh
+2024-07-27 21:20:24,535 DEBUG Palavra: carro
+2024-07-27 21:20:24,535 DEBUG Resultado: [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:20:24,535 DEBUG Tentativas Restantes: 0
+2024-07-27 21:20:24,535 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('p', 'default'), ('o', 'incorrect'), ('r', 'correct'), ('t', 'default'), ('a', 'incorrect')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:20:24,535 DEBUG Vit�ria: True
+2024-07-27 21:20:24,536 INFO 127.0.0.1 - - [27/Jul/2024 21:20:24] "POST / HTTP/1.1" 200 -
+2024-07-27 21:20:24,561 INFO 127.0.0.1 - - [27/Jul/2024 21:20:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:20:24,561 INFO 127.0.0.1 - - [27/Jul/2024 21:20:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:20:36,417 DEBUG Tentativa: carro
+2024-07-27 21:20:36,417 DEBUG Palavra: carro
+2024-07-27 21:20:36,417 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('r', 'correct'), ('r', 'correct'), ('o', 'correct')]
+2024-07-27 21:20:36,417 DEBUG Tentativas Restantes: -1
+2024-07-27 21:20:36,417 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('p', 'default'), ('o', 'incorrect'), ('r', 'correct'), ('t', 'default'), ('a', 'incorrect')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')], [('c', 'correct'), ('n', 'default'), ('h', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:20:36,417 DEBUG Vit�ria: True
+2024-07-27 21:20:36,418 INFO 127.0.0.1 - - [27/Jul/2024 21:20:36] "POST / HTTP/1.1" 200 -
+2024-07-27 21:20:36,460 INFO 127.0.0.1 - - [27/Jul/2024 21:20:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:20:36,463 INFO 127.0.0.1 - - [27/Jul/2024 21:20:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:20:43,585 DEBUG Nova Palavra: janela
+2024-07-27 21:20:43,586 INFO 127.0.0.1 - - [27/Jul/2024 21:20:43] "GET / HTTP/1.1" 200 -
+2024-07-27 21:20:43,622 INFO 127.0.0.1 - - [27/Jul/2024 21:20:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:20:43,624 INFO 127.0.0.1 - - [27/Jul/2024 21:20:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:20:50,596 DEBUG Tentativa: passar
+2024-07-27 21:20:50,596 DEBUG Palavra: janela
+2024-07-27 21:20:50,596 DEBUG Resultado: [('p', 'default'), ('a', 'correct'), ('s', 'default'), ('s', 'default'), ('a', 'incorrect'), ('r', 'default')]
+2024-07-27 21:20:50,596 DEBUG Tentativas Restantes: 5
+2024-07-27 21:20:50,596 DEBUG Tentativas: []
+2024-07-27 21:20:50,596 DEBUG Vit�ria: False
+2024-07-27 21:20:50,597 INFO 127.0.0.1 - - [27/Jul/2024 21:20:50] "POST / HTTP/1.1" 200 -
+2024-07-27 21:20:50,630 INFO 127.0.0.1 - - [27/Jul/2024 21:20:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:20:50,632 INFO 127.0.0.1 - - [27/Jul/2024 21:20:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:22:23,319 DEBUG Tentativa: janela
+2024-07-27 21:22:23,319 DEBUG Palavra: janela
+2024-07-27 21:22:23,319 DEBUG Resultado: [('j', 'correct'), ('a', 'correct'), ('n', 'correct'), ('e', 'correct'), ('l', 'correct'), ('a', 'correct')]
+2024-07-27 21:22:23,319 DEBUG Tentativas Restantes: 4
+2024-07-27 21:22:23,319 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('s', 'default'), ('s', 'default'), ('a', 'incorrect'), ('r', 'default')]]
+2024-07-27 21:22:23,319 DEBUG Vit�ria: False
+2024-07-27 21:22:23,320 INFO 127.0.0.1 - - [27/Jul/2024 21:22:23] "POST / HTTP/1.1" 200 -
+2024-07-27 21:22:23,358 INFO 127.0.0.1 - - [27/Jul/2024 21:22:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:22:23,358 INFO 127.0.0.1 - - [27/Jul/2024 21:22:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:24:54,619 DEBUG Tentativa: janela
+2024-07-27 21:24:54,619 DEBUG Palavra: janela
+2024-07-27 21:24:54,619 DEBUG Resultado: [('j', 'correct'), ('a', 'correct'), ('n', 'correct'), ('e', 'correct'), ('l', 'correct'), ('a', 'correct')]
+2024-07-27 21:24:54,619 DEBUG Tentativas Restantes: 4
+2024-07-27 21:24:54,619 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('s', 'default'), ('s', 'default'), ('a', 'incorrect'), ('r', 'default')]]
+2024-07-27 21:24:54,619 DEBUG Vit�ria: True
+2024-07-27 21:24:54,624 INFO 127.0.0.1 - - [27/Jul/2024 21:24:54] "POST / HTTP/1.1" 200 -
+2024-07-27 21:24:54,652 INFO 127.0.0.1 - - [27/Jul/2024 21:24:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:24:54,652 INFO 127.0.0.1 - - [27/Jul/2024 21:24:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:25:01,998 DEBUG Tentativa: janela
+2024-07-27 21:25:01,998 DEBUG Palavra: janela
+2024-07-27 21:25:01,998 DEBUG Resultado: [('j', 'correct'), ('a', 'correct'), ('n', 'correct'), ('e', 'correct'), ('l', 'correct'), ('a', 'correct')]
+2024-07-27 21:25:01,998 DEBUG Tentativas Restantes: 4
+2024-07-27 21:25:01,998 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('s', 'default'), ('s', 'default'), ('a', 'incorrect'), ('r', 'default')]]
+2024-07-27 21:25:01,998 DEBUG Vit�ria: True
+2024-07-27 21:25:01,999 INFO 127.0.0.1 - - [27/Jul/2024 21:25:01] "POST / HTTP/1.1" 200 -
+2024-07-27 21:25:02,023 INFO 127.0.0.1 - - [27/Jul/2024 21:25:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:25:02,024 INFO 127.0.0.1 - - [27/Jul/2024 21:25:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:25:20,964 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-27 21:25:20,964 INFO [33mPress CTRL+C to quit[0m
+2024-07-27 21:25:20,971 INFO  * Restarting with stat
+2024-07-27 21:25:21,357 WARNING  * Debugger is active!
+2024-07-27 21:25:21,364 INFO  * Debugger PIN: 108-158-121
+2024-07-27 21:25:23,713 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-27 21:25:23,713 INFO [33mPress CTRL+C to quit[0m
+2024-07-27 21:25:23,717 INFO  * Restarting with stat
+2024-07-27 21:25:23,995 WARNING  * Debugger is active!
+2024-07-27 21:25:24,000 INFO  * Debugger PIN: 108-158-121
+2024-07-27 21:25:33,213 DEBUG Nova Palavra: caminho
+2024-07-27 21:25:33,227 INFO 127.0.0.1 - - [27/Jul/2024 21:25:33] "GET / HTTP/1.1" 200 -
+2024-07-27 21:25:33,327 INFO 127.0.0.1 - - [27/Jul/2024 21:25:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:25:33,327 INFO 127.0.0.1 - - [27/Jul/2024 21:25:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:25:45,362 DEBUG Tentativa: parados
+2024-07-27 21:25:45,362 DEBUG Palavra: caminho
+2024-07-27 21:25:45,362 DEBUG Resultado: [('p', 'default'), ('a', 'correct'), ('r', 'default'), ('a', 'incorrect'), ('d', 'default'), ('o', 'incorrect'), ('s', 'default')]
+2024-07-27 21:25:45,362 DEBUG Tentativas Restantes: 5
+2024-07-27 21:25:45,362 DEBUG Tentativas: []
+2024-07-27 21:25:45,362 DEBUG Vit�ria: False
+2024-07-27 21:25:45,363 INFO 127.0.0.1 - - [27/Jul/2024 21:25:45] "POST / HTTP/1.1" 200 -
+2024-07-27 21:25:45,394 INFO 127.0.0.1 - - [27/Jul/2024 21:25:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:25:45,397 INFO 127.0.0.1 - - [27/Jul/2024 21:25:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:25:54,301 DEBUG Tentativa: a
+2024-07-27 21:25:54,301 DEBUG Palavra: caminho
+2024-07-27 21:25:54,301 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:25:54,301 DEBUG Tentativas Restantes: 4
+2024-07-27 21:25:54,301 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('r', 'default'), ('a', 'incorrect'), ('d', 'default'), ('o', 'incorrect'), ('s', 'default')]]
+2024-07-27 21:25:54,302 DEBUG Vit�ria: False
+2024-07-27 21:25:54,302 INFO 127.0.0.1 - - [27/Jul/2024 21:25:54] "POST / HTTP/1.1" 200 -
+2024-07-27 21:25:54,338 INFO 127.0.0.1 - - [27/Jul/2024 21:25:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:25:54,339 INFO 127.0.0.1 - - [27/Jul/2024 21:25:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:25:56,016 DEBUG Tentativa: a
+2024-07-27 21:25:56,016 DEBUG Palavra: caminho
+2024-07-27 21:25:56,016 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:25:56,016 DEBUG Tentativas Restantes: 3
+2024-07-27 21:25:56,016 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('r', 'default'), ('a', 'incorrect'), ('d', 'default'), ('o', 'incorrect'), ('s', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:25:56,017 DEBUG Vit�ria: False
+2024-07-27 21:25:56,017 INFO 127.0.0.1 - - [27/Jul/2024 21:25:56] "POST / HTTP/1.1" 200 -
+2024-07-27 21:25:56,051 INFO 127.0.0.1 - - [27/Jul/2024 21:25:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:25:56,053 INFO 127.0.0.1 - - [27/Jul/2024 21:25:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:25:57,563 DEBUG Tentativa: a
+2024-07-27 21:25:57,563 DEBUG Palavra: caminho
+2024-07-27 21:25:57,563 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:25:57,563 DEBUG Tentativas Restantes: 2
+2024-07-27 21:25:57,563 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('r', 'default'), ('a', 'incorrect'), ('d', 'default'), ('o', 'incorrect'), ('s', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:25:57,563 DEBUG Vit�ria: False
+2024-07-27 21:25:57,564 INFO 127.0.0.1 - - [27/Jul/2024 21:25:57] "POST / HTTP/1.1" 200 -
+2024-07-27 21:25:57,597 INFO 127.0.0.1 - - [27/Jul/2024 21:25:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:25:57,599 INFO 127.0.0.1 - - [27/Jul/2024 21:25:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:25:58,860 DEBUG Tentativa: a
+2024-07-27 21:25:58,860 DEBUG Palavra: caminho
+2024-07-27 21:25:58,860 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:25:58,860 DEBUG Tentativas Restantes: 1
+2024-07-27 21:25:58,860 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('r', 'default'), ('a', 'incorrect'), ('d', 'default'), ('o', 'incorrect'), ('s', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:25:58,860 DEBUG Vit�ria: False
+2024-07-27 21:25:58,861 INFO 127.0.0.1 - - [27/Jul/2024 21:25:58] "POST / HTTP/1.1" 200 -
+2024-07-27 21:25:58,895 INFO 127.0.0.1 - - [27/Jul/2024 21:25:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:25:58,897 INFO 127.0.0.1 - - [27/Jul/2024 21:25:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:26:48,583 DEBUG Tentativa: a
+2024-07-27 21:26:48,583 DEBUG Palavra: caminho
+2024-07-27 21:26:48,583 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:26:48,583 DEBUG Tentativas Restantes: 0
+2024-07-27 21:26:48,583 DEBUG Tentativas: [[('p', 'default'), ('a', 'correct'), ('r', 'default'), ('a', 'incorrect'), ('d', 'default'), ('o', 'incorrect'), ('s', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:26:48,583 DEBUG Vit�ria: False
+2024-07-27 21:26:48,589 INFO 127.0.0.1 - - [27/Jul/2024 21:26:48] "POST / HTTP/1.1" 200 -
+2024-07-27 21:26:48,615 INFO 127.0.0.1 - - [27/Jul/2024 21:26:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:26:48,615 INFO 127.0.0.1 - - [27/Jul/2024 21:26:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:26:53,627 DEBUG Nova Palavra: estrela
+2024-07-27 21:26:53,628 INFO 127.0.0.1 - - [27/Jul/2024 21:26:53] "GET / HTTP/1.1" 200 -
+2024-07-27 21:26:53,661 INFO 127.0.0.1 - - [27/Jul/2024 21:26:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:26:53,662 INFO 127.0.0.1 - - [27/Jul/2024 21:26:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:26:59,648 DEBUG Tentativa: caminho
+2024-07-27 21:26:59,648 DEBUG Palavra: estrela
+2024-07-27 21:26:59,648 DEBUG Resultado: [('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]
+2024-07-27 21:26:59,648 DEBUG Tentativas Restantes: 5
+2024-07-27 21:26:59,648 DEBUG Tentativas: []
+2024-07-27 21:26:59,648 DEBUG Vit�ria: False
+2024-07-27 21:26:59,649 INFO 127.0.0.1 - - [27/Jul/2024 21:26:59] "POST / HTTP/1.1" 200 -
+2024-07-27 21:26:59,683 INFO 127.0.0.1 - - [27/Jul/2024 21:26:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:26:59,685 INFO 127.0.0.1 - - [27/Jul/2024 21:26:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:27:20,491 DEBUG Tentativa: estrela
+2024-07-27 21:27:20,491 DEBUG Palavra: estrela
+2024-07-27 21:27:20,491 DEBUG Resultado: [('e', 'correct'), ('s', 'correct'), ('t', 'correct'), ('r', 'correct'), ('e', 'correct'), ('l', 'correct'), ('a', 'correct')]
+2024-07-27 21:27:20,491 DEBUG Tentativas Restantes: 4
+2024-07-27 21:27:20,491 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]]
+2024-07-27 21:27:20,491 DEBUG Vit�ria: False
+2024-07-27 21:27:20,492 INFO 127.0.0.1 - - [27/Jul/2024 21:27:20] "POST / HTTP/1.1" 200 -
+2024-07-27 21:27:20,525 INFO 127.0.0.1 - - [27/Jul/2024 21:27:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:27:20,527 INFO 127.0.0.1 - - [27/Jul/2024 21:27:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:31:21,025 INFO  * Detected change in 'C:\\Users\\PC\\Desktop\\terno\\app.py', reloading
+2024-07-27 21:31:21,078 INFO  * Restarting with stat
+2024-07-27 21:31:21,370 WARNING  * Debugger is active!
+2024-07-27 21:31:21,377 INFO  * Debugger PIN: 108-158-121
+2024-07-27 21:33:10,456 DEBUG Tentativa: estrela
+2024-07-27 21:33:10,456 DEBUG Palavra: estrela
+2024-07-27 21:33:10,456 DEBUG Resultado: [('e', 'correct'), ('s', 'correct'), ('t', 'correct'), ('r', 'correct'), ('e', 'correct'), ('l', 'correct'), ('a', 'correct')]
+2024-07-27 21:33:10,456 DEBUG Tentativas Restantes: 4
+2024-07-27 21:33:10,456 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]]
+2024-07-27 21:33:10,456 DEBUG Vit�ria: True
+2024-07-27 21:33:10,464 INFO 127.0.0.1 - - [27/Jul/2024 21:33:10] "POST / HTTP/1.1" 200 -
+2024-07-27 21:33:10,538 INFO 127.0.0.1 - - [27/Jul/2024 21:33:10] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-27 21:33:10,539 INFO 127.0.0.1 - - [27/Jul/2024 21:33:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:33:12,331 DEBUG Tentativa: 
+2024-07-27 21:33:12,331 DEBUG Palavra: estrela
+2024-07-27 21:33:12,331 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-27 21:33:12,331 DEBUG Tentativas Restantes: 4
+2024-07-27 21:33:12,331 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]]
+2024-07-27 21:33:12,331 DEBUG Vit�ria: True
+2024-07-27 21:33:12,332 INFO 127.0.0.1 - - [27/Jul/2024 21:33:12] "POST / HTTP/1.1" 200 -
+2024-07-27 21:33:12,363 INFO 127.0.0.1 - - [27/Jul/2024 21:33:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:33:12,366 INFO 127.0.0.1 - - [27/Jul/2024 21:33:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:33:24,895 DEBUG Tentativa: caminho
+2024-07-27 21:33:24,895 DEBUG Palavra: estrela
+2024-07-27 21:33:24,895 DEBUG Resultado: [('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]
+2024-07-27 21:33:24,895 DEBUG Tentativas Restantes: 3
+2024-07-27 21:33:24,895 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-27 21:33:24,895 DEBUG Vit�ria: True
+2024-07-27 21:33:24,897 INFO 127.0.0.1 - - [27/Jul/2024 21:33:24] "POST / HTTP/1.1" 200 -
+2024-07-27 21:33:24,930 INFO 127.0.0.1 - - [27/Jul/2024 21:33:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:33:24,932 INFO 127.0.0.1 - - [27/Jul/2024 21:33:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-27 21:33:33,039 DEBUG Tentativa: estrela
+2024-07-27 21:33:33,039 DEBUG Palavra: estrela
+2024-07-27 21:33:33,039 DEBUG Resultado: [('e', 'correct'), ('s', 'correct'), ('t', 'correct'), ('r', 'correct'), ('e', 'correct'), ('l', 'correct'), ('a', 'correct')]
+2024-07-27 21:33:33,039 DEBUG Tentativas Restantes: 2
+2024-07-27 21:33:33,039 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]]
+2024-07-27 21:33:33,039 DEBUG Vit�ria: True
+2024-07-27 21:33:33,040 INFO 127.0.0.1 - - [27/Jul/2024 21:33:33] "POST / HTTP/1.1" 200 -
+2024-07-27 21:33:33,074 INFO 127.0.0.1 - - [27/Jul/2024 21:33:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-27 21:33:33,077 INFO 127.0.0.1 - - [27/Jul/2024 21:33:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:08:06,233 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-28 09:08:06,233 INFO [33mPress CTRL+C to quit[0m
+2024-07-28 09:08:06,238 INFO  * Restarting with stat
+2024-07-28 09:08:06,529 WARNING  * Debugger is active!
+2024-07-28 09:08:06,535 INFO  * Debugger PIN: 108-158-121
+2024-07-28 09:08:41,358 DEBUG Nova Palavra: sol
+2024-07-28 09:08:41,380 INFO 127.0.0.1 - - [28/Jul/2024 09:08:41] "GET / HTTP/1.1" 200 -
+2024-07-28 09:08:41,467 INFO 127.0.0.1 - - [28/Jul/2024 09:08:41] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 09:08:41,480 INFO 127.0.0.1 - - [28/Jul/2024 09:08:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:08:41,509 INFO 127.0.0.1 - - [28/Jul/2024 09:08:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-28 09:08:51,111 DEBUG Tentativa: sol
+2024-07-28 09:08:51,111 DEBUG Palavra: sol
+2024-07-28 09:08:51,111 DEBUG Resultado: [('s', 'correct'), ('o', 'correct'), ('l', 'correct')]
+2024-07-28 09:08:51,111 DEBUG Tentativas Restantes: 5
+2024-07-28 09:08:51,111 DEBUG Tentativas: []
+2024-07-28 09:08:51,111 DEBUG Vit�ria: False
+2024-07-28 09:08:51,111 INFO 127.0.0.1 - - [28/Jul/2024 09:08:51] "POST / HTTP/1.1" 200 -
+2024-07-28 09:08:51,150 INFO 127.0.0.1 - - [28/Jul/2024 09:08:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:08:51,151 INFO 127.0.0.1 - - [28/Jul/2024 09:08:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:24,481 DEBUG Tentativa: sol
+2024-07-28 09:16:24,481 DEBUG Palavra: sol
+2024-07-28 09:16:24,481 DEBUG Resultado: [('s', 'correct'), ('o', 'correct'), ('l', 'correct')]
+2024-07-28 09:16:24,481 DEBUG Tentativas Restantes: 5
+2024-07-28 09:16:24,481 DEBUG Tentativas: []
+2024-07-28 09:16:24,481 DEBUG Vit�ria: True
+2024-07-28 09:16:24,482 INFO 127.0.0.1 - - [28/Jul/2024 09:16:24] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:24,511 INFO 127.0.0.1 - - [28/Jul/2024 09:16:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:24,512 INFO 127.0.0.1 - - [28/Jul/2024 09:16:24] "GET /static/script.js HTTP/1.1" 200 -
+2024-07-28 09:16:27,062 DEBUG Tentativa: 
+2024-07-28 09:16:27,062 DEBUG Palavra: sol
+2024-07-28 09:16:27,063 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:16:27,063 DEBUG Tentativas Restantes: 5
+2024-07-28 09:16:27,063 DEBUG Tentativas: []
+2024-07-28 09:16:27,063 DEBUG Vit�ria: True
+2024-07-28 09:16:27,064 INFO 127.0.0.1 - - [28/Jul/2024 09:16:27] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:27,099 INFO 127.0.0.1 - - [28/Jul/2024 09:16:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:27,101 INFO 127.0.0.1 - - [28/Jul/2024 09:16:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:33,568 DEBUG Tentativa: lua
+2024-07-28 09:16:33,568 DEBUG Palavra: sol
+2024-07-28 09:16:33,568 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:33,568 DEBUG Tentativas Restantes: 4
+2024-07-28 09:16:33,569 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 09:16:33,569 DEBUG Vit�ria: True
+2024-07-28 09:16:33,569 INFO 127.0.0.1 - - [28/Jul/2024 09:16:33] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:33,602 INFO 127.0.0.1 - - [28/Jul/2024 09:16:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:33,605 INFO 127.0.0.1 - - [28/Jul/2024 09:16:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:50,831 DEBUG Tentativa: lua
+2024-07-28 09:16:50,831 DEBUG Palavra: sol
+2024-07-28 09:16:50,831 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:50,831 DEBUG Tentativas Restantes: 3
+2024-07-28 09:16:50,831 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:50,831 DEBUG Vit�ria: True
+2024-07-28 09:16:50,832 INFO 127.0.0.1 - - [28/Jul/2024 09:16:50] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:50,856 INFO 127.0.0.1 - - [28/Jul/2024 09:16:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:50,858 INFO 127.0.0.1 - - [28/Jul/2024 09:16:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:51,665 DEBUG Tentativa: lua
+2024-07-28 09:16:51,665 DEBUG Palavra: sol
+2024-07-28 09:16:51,666 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:51,666 DEBUG Tentativas Restantes: 2
+2024-07-28 09:16:51,666 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:51,666 DEBUG Vit�ria: True
+2024-07-28 09:16:51,666 INFO 127.0.0.1 - - [28/Jul/2024 09:16:51] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:51,691 INFO 127.0.0.1 - - [28/Jul/2024 09:16:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:51,691 INFO 127.0.0.1 - - [28/Jul/2024 09:16:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:51,875 DEBUG Tentativa: lua
+2024-07-28 09:16:51,875 DEBUG Palavra: sol
+2024-07-28 09:16:51,875 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:51,875 DEBUG Tentativas Restantes: 1
+2024-07-28 09:16:51,875 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:51,875 DEBUG Vit�ria: True
+2024-07-28 09:16:51,876 INFO 127.0.0.1 - - [28/Jul/2024 09:16:51] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:51,904 INFO 127.0.0.1 - - [28/Jul/2024 09:16:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:51,905 INFO 127.0.0.1 - - [28/Jul/2024 09:16:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,073 DEBUG Tentativa: lua
+2024-07-28 09:16:52,073 DEBUG Palavra: sol
+2024-07-28 09:16:52,073 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:52,073 DEBUG Tentativas Restantes: 0
+2024-07-28 09:16:52,073 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:52,073 DEBUG Vit�ria: True
+2024-07-28 09:16:52,074 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:52,100 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,100 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,279 DEBUG Tentativa: lua
+2024-07-28 09:16:52,279 DEBUG Palavra: sol
+2024-07-28 09:16:52,279 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:52,280 DEBUG Tentativas Restantes: -1
+2024-07-28 09:16:52,280 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:52,280 DEBUG Vit�ria: True
+2024-07-28 09:16:52,280 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:52,309 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,312 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,472 DEBUG Tentativa: lua
+2024-07-28 09:16:52,472 DEBUG Palavra: sol
+2024-07-28 09:16:52,472 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:52,472 DEBUG Tentativas Restantes: -2
+2024-07-28 09:16:52,472 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:52,472 DEBUG Vit�ria: True
+2024-07-28 09:16:52,473 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:52,498 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,498 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,645 DEBUG Tentativa: lua
+2024-07-28 09:16:52,645 DEBUG Palavra: sol
+2024-07-28 09:16:52,645 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:52,645 DEBUG Tentativas Restantes: -3
+2024-07-28 09:16:52,645 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:52,645 DEBUG Vit�ria: True
+2024-07-28 09:16:52,646 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:52,670 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,670 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,855 DEBUG Tentativa: lua
+2024-07-28 09:16:52,855 DEBUG Palavra: sol
+2024-07-28 09:16:52,855 DEBUG Resultado: [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]
+2024-07-28 09:16:52,856 DEBUG Tentativas Restantes: -4
+2024-07-28 09:16:52,856 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')], [('l', 'incorrect'), ('u', 'default'), ('a', 'default')]]
+2024-07-28 09:16:52,856 DEBUG Vit�ria: True
+2024-07-28 09:16:52,856 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "POST / HTTP/1.1" 200 -
+2024-07-28 09:16:52,883 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:52,883 INFO 127.0.0.1 - - [28/Jul/2024 09:16:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:16:57,989 DEBUG Nova Palavra: lua
+2024-07-28 09:16:57,990 INFO 127.0.0.1 - - [28/Jul/2024 09:16:57] "GET / HTTP/1.1" 200 -
+2024-07-28 09:16:58,038 INFO 127.0.0.1 - - [28/Jul/2024 09:16:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:16:58,039 INFO 127.0.0.1 - - [28/Jul/2024 09:16:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:17:21,120 DEBUG Tentativa: rua
+2024-07-28 09:17:21,120 DEBUG Palavra: lua
+2024-07-28 09:17:21,120 DEBUG Resultado: [('r', 'default'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:17:21,120 DEBUG Tentativas Restantes: 5
+2024-07-28 09:17:21,120 DEBUG Tentativas: []
+2024-07-28 09:17:21,120 DEBUG Vit�ria: False
+2024-07-28 09:17:21,121 INFO 127.0.0.1 - - [28/Jul/2024 09:17:21] "POST / HTTP/1.1" 200 -
+2024-07-28 09:17:21,151 INFO 127.0.0.1 - - [28/Jul/2024 09:17:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:17:21,161 INFO 127.0.0.1 - - [28/Jul/2024 09:17:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:17:26,646 DEBUG Tentativa: lua
+2024-07-28 09:17:26,646 DEBUG Palavra: lua
+2024-07-28 09:17:26,646 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:17:26,646 DEBUG Tentativas Restantes: 4
+2024-07-28 09:17:26,646 DEBUG Tentativas: [[('r', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 09:17:26,646 DEBUG Vit�ria: False
+2024-07-28 09:17:26,646 INFO 127.0.0.1 - - [28/Jul/2024 09:17:26] "POST / HTTP/1.1" 200 -
+2024-07-28 09:17:26,679 INFO 127.0.0.1 - - [28/Jul/2024 09:17:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:17:26,683 INFO 127.0.0.1 - - [28/Jul/2024 09:17:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:23:44,608 DEBUG Tentativa: lua
+2024-07-28 09:23:44,608 DEBUG Palavra: lua
+2024-07-28 09:23:44,608 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:23:44,608 DEBUG Tentativas Restantes: 4
+2024-07-28 09:23:44,608 DEBUG Tentativas: [[('r', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 09:23:44,608 DEBUG Vit�ria: True
+2024-07-28 09:23:44,614 INFO 127.0.0.1 - - [28/Jul/2024 09:23:44] "POST / HTTP/1.1" 200 -
+2024-07-28 09:23:44,639 INFO 127.0.0.1 - - [28/Jul/2024 09:23:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:23:45,467 DEBUG Tentativa: lua
+2024-07-28 09:23:45,467 DEBUG Palavra: lua
+2024-07-28 09:23:45,467 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:23:45,467 DEBUG Tentativas Restantes: 4
+2024-07-28 09:23:45,467 DEBUG Tentativas: [[('r', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 09:23:45,467 DEBUG Vit�ria: True
+2024-07-28 09:23:45,468 INFO 127.0.0.1 - - [28/Jul/2024 09:23:45] "POST / HTTP/1.1" 200 -
+2024-07-28 09:23:45,490 INFO 127.0.0.1 - - [28/Jul/2024 09:23:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:23:45,667 DEBUG Tentativa: lua
+2024-07-28 09:23:45,667 DEBUG Palavra: lua
+2024-07-28 09:23:45,668 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:23:45,668 DEBUG Tentativas Restantes: 4
+2024-07-28 09:23:45,668 DEBUG Tentativas: [[('r', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 09:23:45,668 DEBUG Vit�ria: True
+2024-07-28 09:23:45,668 INFO 127.0.0.1 - - [28/Jul/2024 09:23:45] "POST / HTTP/1.1" 200 -
+2024-07-28 09:23:45,691 INFO 127.0.0.1 - - [28/Jul/2024 09:23:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:23:45,846 DEBUG Tentativa: lua
+2024-07-28 09:23:45,846 DEBUG Palavra: lua
+2024-07-28 09:23:45,846 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:23:45,846 DEBUG Tentativas Restantes: 4
+2024-07-28 09:23:45,847 DEBUG Tentativas: [[('r', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 09:23:45,847 DEBUG Vit�ria: True
+2024-07-28 09:23:45,848 INFO 127.0.0.1 - - [28/Jul/2024 09:23:45] "POST / HTTP/1.1" 200 -
+2024-07-28 09:23:45,871 INFO 127.0.0.1 - - [28/Jul/2024 09:23:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:23:51,469 DEBUG Nova Palavra: cachorro
+2024-07-28 09:23:51,470 INFO 127.0.0.1 - - [28/Jul/2024 09:23:51] "GET / HTTP/1.1" 200 -
+2024-07-28 09:23:51,519 INFO 127.0.0.1 - - [28/Jul/2024 09:23:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:23:55,918 DEBUG Tentativa: a
+2024-07-28 09:23:55,918 DEBUG Palavra: cachorro
+2024-07-28 09:23:55,918 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:23:55,918 DEBUG Tentativas Restantes: 5
+2024-07-28 09:23:55,918 DEBUG Tentativas: []
+2024-07-28 09:23:55,918 DEBUG Vit�ria: False
+2024-07-28 09:23:55,919 INFO 127.0.0.1 - - [28/Jul/2024 09:23:55] "POST / HTTP/1.1" 200 -
+2024-07-28 09:23:55,952 INFO 127.0.0.1 - - [28/Jul/2024 09:23:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:24:53,642 DEBUG Tentativa: a
+2024-07-28 09:24:53,642 DEBUG Palavra: cachorro
+2024-07-28 09:24:53,642 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:24:53,642 DEBUG Tentativas Restantes: 4
+2024-07-28 09:24:53,642 DEBUG Tentativas: [[('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 09:24:53,642 DEBUG Vit�ria: False
+2024-07-28 09:24:53,643 INFO 127.0.0.1 - - [28/Jul/2024 09:24:53] "POST / HTTP/1.1" 200 -
+2024-07-28 09:24:53,668 INFO 127.0.0.1 - - [28/Jul/2024 09:24:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:25:02,091 DEBUG Nova Palavra: sol
+2024-07-28 09:25:02,092 INFO 127.0.0.1 - - [28/Jul/2024 09:25:02] "GET / HTTP/1.1" 200 -
+2024-07-28 09:25:02,105 INFO 127.0.0.1 - - [28/Jul/2024 09:25:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:37:09,108 DEBUG Nova Palavra: porta
+2024-07-28 09:37:09,109 INFO 127.0.0.1 - - [28/Jul/2024 09:37:09] "GET / HTTP/1.1" 200 -
+2024-07-28 09:37:09,136 INFO 127.0.0.1 - - [28/Jul/2024 09:37:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:37:57,521 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-28 09:37:57,522 INFO [33mPress CTRL+C to quit[0m
+2024-07-28 09:37:57,526 INFO  * Restarting with stat
+2024-07-28 09:37:57,886 WARNING  * Debugger is active!
+2024-07-28 09:37:57,893 INFO  * Debugger PIN: 108-158-121
+2024-07-28 09:38:54,138 DEBUG Tentativa: rua
+2024-07-28 09:38:54,138 DEBUG Palavra: porta
+2024-07-28 09:38:54,138 DEBUG Resultado: [('r', 'incorrect'), ('u', 'default'), ('a', 'incorrect'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:38:54,138 DEBUG Tentativas Restantes: 5
+2024-07-28 09:38:54,138 DEBUG Tentativas: []
+2024-07-28 09:38:54,138 DEBUG Vit�ria: False
+2024-07-28 09:38:54,146 INFO 127.0.0.1 - - [28/Jul/2024 09:38:54] "POST / HTTP/1.1" 200 -
+2024-07-28 09:38:54,216 INFO 127.0.0.1 - - [28/Jul/2024 09:38:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:41:40,555 DEBUG Nova Palavra: gato
+2024-07-28 09:41:40,557 INFO 127.0.0.1 - - [28/Jul/2024 09:41:40] "GET / HTTP/1.1" 200 -
+2024-07-28 09:41:40,571 INFO 127.0.0.1 - - [28/Jul/2024 09:41:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:42:04,961 INFO 127.0.0.1 - - [28/Jul/2024 09:42:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:45:16,271 DEBUG Nova Palavra: caminho
+2024-07-28 09:45:16,277 INFO 127.0.0.1 - - [28/Jul/2024 09:45:16] "GET / HTTP/1.1" 200 -
+2024-07-28 09:45:16,304 INFO 127.0.0.1 - - [28/Jul/2024 09:45:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:45:16,312 INFO 127.0.0.1 - - [28/Jul/2024 09:45:16] "GET /static/script.js HTTP/1.1" 200 -
+2024-07-28 09:45:34,171 DEBUG Tentativa: carrosp
+2024-07-28 09:45:34,171 DEBUG Palavra: caminho
+2024-07-28 09:45:34,171 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('p', 'default')]
+2024-07-28 09:45:34,171 DEBUG Tentativas Restantes: 5
+2024-07-28 09:45:34,171 DEBUG Tentativas: []
+2024-07-28 09:45:34,171 DEBUG Vit�ria: False
+2024-07-28 09:45:34,172 INFO 127.0.0.1 - - [28/Jul/2024 09:45:34] "POST / HTTP/1.1" 200 -
+2024-07-28 09:45:34,209 INFO 127.0.0.1 - - [28/Jul/2024 09:45:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:45:34,214 INFO 127.0.0.1 - - [28/Jul/2024 09:45:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:45:40,946 DEBUG Tentativa: caminho
+2024-07-28 09:45:40,946 DEBUG Palavra: caminho
+2024-07-28 09:45:40,946 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 09:45:40,946 DEBUG Tentativas Restantes: 4
+2024-07-28 09:45:40,946 DEBUG Tentativas: [[('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('p', 'default')]]
+2024-07-28 09:45:40,946 DEBUG Vit�ria: False
+2024-07-28 09:45:40,948 INFO 127.0.0.1 - - [28/Jul/2024 09:45:40] "POST / HTTP/1.1" 200 -
+2024-07-28 09:45:40,986 INFO 127.0.0.1 - - [28/Jul/2024 09:45:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:45:40,989 INFO 127.0.0.1 - - [28/Jul/2024 09:45:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:48:19,908 DEBUG Tentativa: a
+2024-07-28 09:48:19,908 DEBUG Palavra: caminho
+2024-07-28 09:48:19,908 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:48:19,908 DEBUG Tentativas Restantes: 4
+2024-07-28 09:48:19,908 DEBUG Tentativas: [[('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('p', 'default')]]
+2024-07-28 09:48:19,908 DEBUG Vit�ria: True
+2024-07-28 09:48:19,909 INFO 127.0.0.1 - - [28/Jul/2024 09:48:19] "POST / HTTP/1.1" 200 -
+2024-07-28 09:48:19,949 INFO 127.0.0.1 - - [28/Jul/2024 09:48:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:48:19,950 INFO 127.0.0.1 - - [28/Jul/2024 09:48:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:48:22,013 DEBUG Tentativa: a
+2024-07-28 09:48:22,013 DEBUG Palavra: caminho
+2024-07-28 09:48:22,013 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:48:22,013 DEBUG Tentativas Restantes: 3
+2024-07-28 09:48:22,013 DEBUG Tentativas: [[('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('p', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 09:48:22,013 DEBUG Vit�ria: True
+2024-07-28 09:48:22,014 INFO 127.0.0.1 - - [28/Jul/2024 09:48:22] "POST / HTTP/1.1" 200 -
+2024-07-28 09:48:22,046 INFO 127.0.0.1 - - [28/Jul/2024 09:48:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:48:22,051 INFO 127.0.0.1 - - [28/Jul/2024 09:48:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:48:23,730 DEBUG Tentativa: a
+2024-07-28 09:48:23,730 DEBUG Palavra: caminho
+2024-07-28 09:48:23,730 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:48:23,730 DEBUG Tentativas Restantes: 2
+2024-07-28 09:48:23,730 DEBUG Tentativas: [[('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('p', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 09:48:23,730 DEBUG Vit�ria: True
+2024-07-28 09:48:23,731 INFO 127.0.0.1 - - [28/Jul/2024 09:48:23] "POST / HTTP/1.1" 200 -
+2024-07-28 09:48:23,762 INFO 127.0.0.1 - - [28/Jul/2024 09:48:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:48:23,767 INFO 127.0.0.1 - - [28/Jul/2024 09:48:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:48:25,671 DEBUG Tentativa: a
+2024-07-28 09:48:25,672 DEBUG Palavra: caminho
+2024-07-28 09:48:25,672 DEBUG Resultado: [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 09:48:25,672 DEBUG Tentativas Restantes: 1
+2024-07-28 09:48:25,672 DEBUG Tentativas: [[('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('p', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('a', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 09:48:25,672 DEBUG Vit�ria: True
+2024-07-28 09:48:25,673 INFO 127.0.0.1 - - [28/Jul/2024 09:48:25] "POST / HTTP/1.1" 200 -
+2024-07-28 09:48:25,710 INFO 127.0.0.1 - - [28/Jul/2024 09:48:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:48:25,710 INFO 127.0.0.1 - - [28/Jul/2024 09:48:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:54:54,124 DEBUG Nova Palavra: livro
+2024-07-28 09:54:54,126 INFO 127.0.0.1 - - [28/Jul/2024 09:54:54] "GET / HTTP/1.1" 200 -
+2024-07-28 09:54:54,139 INFO 127.0.0.1 - - [28/Jul/2024 09:54:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:54:54,140 INFO 127.0.0.1 - - [28/Jul/2024 09:54:54] "GET /static/script.js HTTP/1.1" 200 -
+2024-07-28 09:55:03,075 INFO 127.0.0.1 - - [28/Jul/2024 09:55:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:56:53,785 DEBUG Nova Palavra: lua
+2024-07-28 09:56:53,786 INFO 127.0.0.1 - - [28/Jul/2024 09:56:53] "GET / HTTP/1.1" 200 -
+2024-07-28 09:56:53,799 INFO 127.0.0.1 - - [28/Jul/2024 09:56:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:56:53,800 INFO 127.0.0.1 - - [28/Jul/2024 09:56:53] "GET /static/script.js HTTP/1.1" 200 -
+2024-07-28 09:56:59,392 DEBUG Tentativa: sol
+2024-07-28 09:56:59,392 DEBUG Palavra: lua
+2024-07-28 09:56:59,392 DEBUG Resultado: [('s', 'default'), ('o', 'default'), ('l', 'incorrect')]
+2024-07-28 09:56:59,392 DEBUG Tentativas Restantes: 5
+2024-07-28 09:56:59,392 DEBUG Tentativas: []
+2024-07-28 09:56:59,392 DEBUG Vit�ria: False
+2024-07-28 09:56:59,393 INFO 127.0.0.1 - - [28/Jul/2024 09:56:59] "POST / HTTP/1.1" 200 -
+2024-07-28 09:56:59,420 INFO 127.0.0.1 - - [28/Jul/2024 09:56:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:56:59,428 INFO 127.0.0.1 - - [28/Jul/2024 09:56:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:57:04,455 DEBUG Tentativa: kua
+2024-07-28 09:57:04,455 DEBUG Palavra: lua
+2024-07-28 09:57:04,455 DEBUG Resultado: [('k', 'default'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:57:04,455 DEBUG Tentativas Restantes: 4
+2024-07-28 09:57:04,455 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')]]
+2024-07-28 09:57:04,455 DEBUG Vit�ria: False
+2024-07-28 09:57:04,456 INFO 127.0.0.1 - - [28/Jul/2024 09:57:04] "POST / HTTP/1.1" 200 -
+2024-07-28 09:57:04,487 INFO 127.0.0.1 - - [28/Jul/2024 09:57:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:57:04,491 INFO 127.0.0.1 - - [28/Jul/2024 09:57:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 09:57:07,500 DEBUG Tentativa: lua
+2024-07-28 09:57:07,500 DEBUG Palavra: lua
+2024-07-28 09:57:07,500 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 09:57:07,500 DEBUG Tentativas Restantes: 3
+2024-07-28 09:57:07,500 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 09:57:07,500 DEBUG Vit�ria: False
+2024-07-28 09:57:07,501 INFO 127.0.0.1 - - [28/Jul/2024 09:57:07] "POST / HTTP/1.1" 200 -
+2024-07-28 09:57:07,529 INFO 127.0.0.1 - - [28/Jul/2024 09:57:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 09:57:07,534 INFO 127.0.0.1 - - [28/Jul/2024 09:57:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:46:33,667 DEBUG Tentativa: lua
+2024-07-28 10:46:33,667 DEBUG Palavra: lua
+2024-07-28 10:46:33,667 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:46:33,668 DEBUG Tentativas Restantes: 3
+2024-07-28 10:46:33,668 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:46:33,668 DEBUG Vit�ria: True
+2024-07-28 10:46:33,668 INFO 127.0.0.1 - - [28/Jul/2024 10:46:33] "POST / HTTP/1.1" 200 -
+2024-07-28 10:46:33,700 INFO 127.0.0.1 - - [28/Jul/2024 10:46:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:46:33,701 INFO 127.0.0.1 - - [28/Jul/2024 10:46:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:46:39,515 DEBUG Tentativa: lua
+2024-07-28 10:46:39,516 DEBUG Palavra: lua
+2024-07-28 10:46:39,516 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:46:39,516 DEBUG Tentativas Restantes: 3
+2024-07-28 10:46:39,516 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:46:39,516 DEBUG Vit�ria: True
+2024-07-28 10:46:39,516 INFO 127.0.0.1 - - [28/Jul/2024 10:46:39] "POST / HTTP/1.1" 200 -
+2024-07-28 10:46:39,547 INFO 127.0.0.1 - - [28/Jul/2024 10:46:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:46:39,550 INFO 127.0.0.1 - - [28/Jul/2024 10:46:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:19,385 DEBUG Tentativa: lua
+2024-07-28 10:50:19,385 DEBUG Palavra: lua
+2024-07-28 10:50:19,385 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:50:19,385 DEBUG Tentativas Restantes: 3
+2024-07-28 10:50:19,385 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:50:19,385 DEBUG Vit�ria: True
+2024-07-28 10:50:19,385 INFO 127.0.0.1 - - [28/Jul/2024 10:50:19] "POST / HTTP/1.1" 200 -
+2024-07-28 10:50:19,411 INFO 127.0.0.1 - - [28/Jul/2024 10:50:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:19,419 INFO 127.0.0.1 - - [28/Jul/2024 10:50:19] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 10:50:20,347 DEBUG Tentativa: lua
+2024-07-28 10:50:20,347 DEBUG Palavra: lua
+2024-07-28 10:50:20,347 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:50:20,347 DEBUG Tentativas Restantes: 3
+2024-07-28 10:50:20,347 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:50:20,347 DEBUG Vit�ria: True
+2024-07-28 10:50:20,348 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "POST / HTTP/1.1" 200 -
+2024-07-28 10:50:20,372 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:50:20,372 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:20,606 DEBUG Tentativa: lua
+2024-07-28 10:50:20,606 DEBUG Palavra: lua
+2024-07-28 10:50:20,606 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:50:20,606 DEBUG Tentativas Restantes: 3
+2024-07-28 10:50:20,606 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:50:20,606 DEBUG Vit�ria: True
+2024-07-28 10:50:20,607 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "POST / HTTP/1.1" 200 -
+2024-07-28 10:50:20,631 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:50:20,632 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:20,815 DEBUG Tentativa: lua
+2024-07-28 10:50:20,815 DEBUG Palavra: lua
+2024-07-28 10:50:20,815 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:50:20,815 DEBUG Tentativas Restantes: 3
+2024-07-28 10:50:20,815 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:50:20,815 DEBUG Vit�ria: True
+2024-07-28 10:50:20,816 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "POST / HTTP/1.1" 200 -
+2024-07-28 10:50:20,840 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:50:20,840 INFO 127.0.0.1 - - [28/Jul/2024 10:50:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:21,015 DEBUG Tentativa: lua
+2024-07-28 10:50:21,015 DEBUG Palavra: lua
+2024-07-28 10:50:21,015 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:50:21,015 DEBUG Tentativas Restantes: 3
+2024-07-28 10:50:21,015 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:50:21,015 DEBUG Vit�ria: True
+2024-07-28 10:50:21,015 INFO 127.0.0.1 - - [28/Jul/2024 10:50:21] "POST / HTTP/1.1" 200 -
+2024-07-28 10:50:21,039 INFO 127.0.0.1 - - [28/Jul/2024 10:50:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:50:21,042 INFO 127.0.0.1 - - [28/Jul/2024 10:50:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:21,192 DEBUG Tentativa: lua
+2024-07-28 10:50:21,192 DEBUG Palavra: lua
+2024-07-28 10:50:21,192 DEBUG Resultado: [('l', 'correct'), ('u', 'correct'), ('a', 'correct')]
+2024-07-28 10:50:21,192 DEBUG Tentativas Restantes: 3
+2024-07-28 10:50:21,192 DEBUG Tentativas: [[('s', 'default'), ('o', 'default'), ('l', 'incorrect')], [('k', 'default'), ('u', 'correct'), ('a', 'correct')]]
+2024-07-28 10:50:21,192 DEBUG Vit�ria: True
+2024-07-28 10:50:21,193 INFO 127.0.0.1 - - [28/Jul/2024 10:50:21] "POST / HTTP/1.1" 200 -
+2024-07-28 10:50:21,220 INFO 127.0.0.1 - - [28/Jul/2024 10:50:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:50:21,221 INFO 127.0.0.1 - - [28/Jul/2024 10:50:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:25,774 DEBUG Nova Palavra: gato
+2024-07-28 10:50:25,775 INFO 127.0.0.1 - - [28/Jul/2024 10:50:25] "GET / HTTP/1.1" 200 -
+2024-07-28 10:50:25,790 INFO 127.0.0.1 - - [28/Jul/2024 10:50:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:50:25,791 INFO 127.0.0.1 - - [28/Jul/2024 10:50:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:50:35,060 INFO 127.0.0.1 - - [28/Jul/2024 10:50:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:51:42,962 DEBUG Nova Palavra: cachorro
+2024-07-28 10:51:42,964 INFO 127.0.0.1 - - [28/Jul/2024 10:51:42] "GET / HTTP/1.1" 200 -
+2024-07-28 10:51:42,997 INFO 127.0.0.1 - - [28/Jul/2024 10:51:42] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 10:51:42,997 INFO 127.0.0.1 - - [28/Jul/2024 10:51:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:49,260 DEBUG Nova Palavra: gato
+2024-07-28 10:53:49,260 INFO 127.0.0.1 - - [28/Jul/2024 10:53:49] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:49,287 INFO 127.0.0.1 - - [28/Jul/2024 10:53:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:49,294 INFO 127.0.0.1 - - [28/Jul/2024 10:53:49] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 10:53:51,309 DEBUG Nova Palavra: sol
+2024-07-28 10:53:51,309 INFO 127.0.0.1 - - [28/Jul/2024 10:53:51] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:51,338 INFO 127.0.0.1 - - [28/Jul/2024 10:53:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:53:51,338 INFO 127.0.0.1 - - [28/Jul/2024 10:53:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:52,086 DEBUG Nova Palavra: cachorro
+2024-07-28 10:53:52,087 INFO 127.0.0.1 - - [28/Jul/2024 10:53:52] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:52,111 INFO 127.0.0.1 - - [28/Jul/2024 10:53:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:53:52,112 INFO 127.0.0.1 - - [28/Jul/2024 10:53:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:53,235 DEBUG Nova Palavra: janela
+2024-07-28 10:53:53,235 INFO 127.0.0.1 - - [28/Jul/2024 10:53:53] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:53,259 INFO 127.0.0.1 - - [28/Jul/2024 10:53:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:53:53,259 INFO 127.0.0.1 - - [28/Jul/2024 10:53:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:53,891 DEBUG Nova Palavra: porta
+2024-07-28 10:53:53,892 INFO 127.0.0.1 - - [28/Jul/2024 10:53:53] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:53,916 INFO 127.0.0.1 - - [28/Jul/2024 10:53:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:53:53,916 INFO 127.0.0.1 - - [28/Jul/2024 10:53:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:54,385 DEBUG Nova Palavra: janela
+2024-07-28 10:53:54,386 INFO 127.0.0.1 - - [28/Jul/2024 10:53:54] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:54,410 INFO 127.0.0.1 - - [28/Jul/2024 10:53:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:53:54,411 INFO 127.0.0.1 - - [28/Jul/2024 10:53:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:54,972 DEBUG Nova Palavra: estrela
+2024-07-28 10:53:54,973 INFO 127.0.0.1 - - [28/Jul/2024 10:53:54] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:54,997 INFO 127.0.0.1 - - [28/Jul/2024 10:53:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:53:54,998 INFO 127.0.0.1 - - [28/Jul/2024 10:53:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:53:55,688 DEBUG Nova Palavra: janela
+2024-07-28 10:53:55,689 INFO 127.0.0.1 - - [28/Jul/2024 10:53:55] "GET / HTTP/1.1" 200 -
+2024-07-28 10:53:55,713 INFO 127.0.0.1 - - [28/Jul/2024 10:53:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:53:55,714 INFO 127.0.0.1 - - [28/Jul/2024 10:53:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:54:07,642 DEBUG Tentativa: adfvdv
+2024-07-28 10:54:07,643 DEBUG Palavra: janela
+2024-07-28 10:54:07,643 DEBUG Resultado: [('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')]
+2024-07-28 10:54:07,643 DEBUG Tentativas Restantes: 5
+2024-07-28 10:54:07,643 DEBUG Tentativas: []
+2024-07-28 10:54:07,643 DEBUG Vit�ria: False
+2024-07-28 10:54:07,644 INFO 127.0.0.1 - - [28/Jul/2024 10:54:07] "POST / HTTP/1.1" 200 -
+2024-07-28 10:54:07,672 INFO 127.0.0.1 - - [28/Jul/2024 10:54:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:54:07,681 INFO 127.0.0.1 - - [28/Jul/2024 10:54:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 10:54:14,232 DEBUG Tentativa: scdcd
+2024-07-28 10:54:14,232 DEBUG Palavra: janela
+2024-07-28 10:54:14,232 DEBUG Resultado: [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]
+2024-07-28 10:54:14,232 DEBUG Tentativas Restantes: 4
+2024-07-28 10:54:14,232 DEBUG Tentativas: [[('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')]]
+2024-07-28 10:54:14,232 DEBUG Vit�ria: False
+2024-07-28 10:54:14,233 INFO 127.0.0.1 - - [28/Jul/2024 10:54:14] "POST / HTTP/1.1" 200 -
+2024-07-28 10:54:14,260 INFO 127.0.0.1 - - [28/Jul/2024 10:54:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 10:54:14,268 INFO 127.0.0.1 - - [28/Jul/2024 10:54:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:15:39,923 DEBUG Tentativa: scdcd
+2024-07-28 12:15:39,923 DEBUG Palavra: janela
+2024-07-28 12:15:39,923 DEBUG Resultado: [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]
+2024-07-28 12:15:39,923 DEBUG Tentativas Restantes: 3
+2024-07-28 12:15:39,923 DEBUG Tentativas: [[('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]]
+2024-07-28 12:15:39,924 DEBUG Vit�ria: False
+2024-07-28 12:15:39,924 INFO 127.0.0.1 - - [28/Jul/2024 12:15:39] "POST / HTTP/1.1" 200 -
+2024-07-28 12:15:39,957 INFO 127.0.0.1 - - [28/Jul/2024 12:15:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:15:39,962 INFO 127.0.0.1 - - [28/Jul/2024 12:15:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:20:26,409 DEBUG Tentativa: scdcd
+2024-07-28 12:20:26,409 DEBUG Palavra: janela
+2024-07-28 12:20:26,409 DEBUG Resultado: [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]
+2024-07-28 12:20:26,409 DEBUG Tentativas Restantes: 2
+2024-07-28 12:20:26,409 DEBUG Tentativas: [[('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]]
+2024-07-28 12:20:26,409 DEBUG Vit�ria: False
+2024-07-28 12:20:26,410 INFO 127.0.0.1 - - [28/Jul/2024 12:20:26] "POST / HTTP/1.1" 200 -
+2024-07-28 12:20:26,437 INFO 127.0.0.1 - - [28/Jul/2024 12:20:26] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:20:26,438 INFO 127.0.0.1 - - [28/Jul/2024 12:20:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:20:27,598 DEBUG Tentativa: scdcd
+2024-07-28 12:20:27,598 DEBUG Palavra: janela
+2024-07-28 12:20:27,598 DEBUG Resultado: [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]
+2024-07-28 12:20:27,598 DEBUG Tentativas Restantes: 1
+2024-07-28 12:20:27,598 DEBUG Tentativas: [[('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]]
+2024-07-28 12:20:27,598 DEBUG Vit�ria: False
+2024-07-28 12:20:27,599 INFO 127.0.0.1 - - [28/Jul/2024 12:20:27] "POST / HTTP/1.1" 200 -
+2024-07-28 12:20:27,623 INFO 127.0.0.1 - - [28/Jul/2024 12:20:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:20:27,624 INFO 127.0.0.1 - - [28/Jul/2024 12:20:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:20:37,951 DEBUG Tentativa: scdcd
+2024-07-28 12:20:37,951 DEBUG Palavra: janela
+2024-07-28 12:20:37,951 DEBUG Resultado: [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]
+2024-07-28 12:20:37,951 DEBUG Tentativas Restantes: 0
+2024-07-28 12:20:37,951 DEBUG Tentativas: [[('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]]
+2024-07-28 12:20:37,951 DEBUG Vit�ria: False
+2024-07-28 12:20:37,952 INFO 127.0.0.1 - - [28/Jul/2024 12:20:37] "POST / HTTP/1.1" 200 -
+2024-07-28 12:20:37,977 INFO 127.0.0.1 - - [28/Jul/2024 12:20:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:20:37,983 INFO 127.0.0.1 - - [28/Jul/2024 12:20:37] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:21:13,289 DEBUG Tentativa: scdcd
+2024-07-28 12:21:13,290 DEBUG Palavra: janela
+2024-07-28 12:21:13,290 DEBUG Resultado: [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]
+2024-07-28 12:21:13,290 DEBUG Tentativas Restantes: -1
+2024-07-28 12:21:13,290 DEBUG Tentativas: [[('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]]
+2024-07-28 12:21:13,290 DEBUG Vit�ria: False
+2024-07-28 12:21:13,291 INFO 127.0.0.1 - - [28/Jul/2024 12:21:13] "POST / HTTP/1.1" 200 -
+2024-07-28 12:21:13,318 INFO 127.0.0.1 - - [28/Jul/2024 12:21:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:21:13,323 INFO 127.0.0.1 - - [28/Jul/2024 12:21:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:21:59,782 DEBUG Tentativa: scdcd
+2024-07-28 12:21:59,782 DEBUG Palavra: janela
+2024-07-28 12:21:59,782 DEBUG Resultado: [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]
+2024-07-28 12:21:59,782 DEBUG Tentativas Restantes: -2
+2024-07-28 12:21:59,782 DEBUG Tentativas: [[('a', 'incorrect'), ('d', 'default'), ('f', 'default'), ('v', 'default'), ('d', 'default'), ('v', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')], [('s', 'default'), ('c', 'default'), ('d', 'default'), ('c', 'default'), ('d', 'default'), ('_', 'default')]]
+2024-07-28 12:21:59,782 DEBUG Vit�ria: False
+2024-07-28 12:21:59,783 INFO 127.0.0.1 - - [28/Jul/2024 12:21:59] "POST / HTTP/1.1" 200 -
+2024-07-28 12:21:59,809 INFO 127.0.0.1 - - [28/Jul/2024 12:21:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:21:59,810 INFO 127.0.0.1 - - [28/Jul/2024 12:21:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:22:03,496 DEBUG Nova Palavra: caminho
+2024-07-28 12:22:03,497 INFO 127.0.0.1 - - [28/Jul/2024 12:22:03] "GET / HTTP/1.1" 200 -
+2024-07-28 12:22:03,533 INFO 127.0.0.1 - - [28/Jul/2024 12:22:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:22:03,535 INFO 127.0.0.1 - - [28/Jul/2024 12:22:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:22:11,376 DEBUG Tentativa: caminho
+2024-07-28 12:22:11,376 DEBUG Palavra: caminho
+2024-07-28 12:22:11,376 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:22:11,376 DEBUG Tentativas Restantes: 5
+2024-07-28 12:22:11,376 DEBUG Tentativas: []
+2024-07-28 12:22:11,377 DEBUG Vit�ria: False
+2024-07-28 12:22:11,377 INFO 127.0.0.1 - - [28/Jul/2024 12:22:11] "POST / HTTP/1.1" 200 -
+2024-07-28 12:22:11,411 INFO 127.0.0.1 - - [28/Jul/2024 12:22:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:22:11,411 INFO 127.0.0.1 - - [28/Jul/2024 12:22:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:24:41,354 DEBUG Tentativa: caminho
+2024-07-28 12:24:41,354 DEBUG Palavra: caminho
+2024-07-28 12:24:41,354 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:24:41,354 DEBUG Tentativas Restantes: 5
+2024-07-28 12:24:41,354 DEBUG Tentativas: []
+2024-07-28 12:24:41,354 DEBUG Vit�ria: True
+2024-07-28 12:24:41,355 INFO 127.0.0.1 - - [28/Jul/2024 12:24:41] "POST / HTTP/1.1" 200 -
+2024-07-28 12:24:41,380 INFO 127.0.0.1 - - [28/Jul/2024 12:24:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:24:41,381 INFO 127.0.0.1 - - [28/Jul/2024 12:24:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:24:53,692 DEBUG Tentativa: caminho
+2024-07-28 12:24:53,692 DEBUG Palavra: caminho
+2024-07-28 12:24:53,692 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:24:53,692 DEBUG Tentativas Restantes: 5
+2024-07-28 12:24:53,692 DEBUG Tentativas: []
+2024-07-28 12:24:53,692 DEBUG Vit�ria: True
+2024-07-28 12:24:53,693 INFO 127.0.0.1 - - [28/Jul/2024 12:24:53] "POST / HTTP/1.1" 200 -
+2024-07-28 12:24:53,718 INFO 127.0.0.1 - - [28/Jul/2024 12:24:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:24:53,723 INFO 127.0.0.1 - - [28/Jul/2024 12:24:53] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:26:14,397 DEBUG Tentativa: caminho
+2024-07-28 12:26:14,397 DEBUG Palavra: caminho
+2024-07-28 12:26:14,397 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:14,397 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:14,397 DEBUG Tentativas: []
+2024-07-28 12:26:14,397 DEBUG Vit�ria: True
+2024-07-28 12:26:14,398 INFO 127.0.0.1 - - [28/Jul/2024 12:26:14] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:14,437 INFO 127.0.0.1 - - [28/Jul/2024 12:26:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:14,443 INFO 127.0.0.1 - - [28/Jul/2024 12:26:14] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:26:15,285 DEBUG Tentativa: caminho
+2024-07-28 12:26:15,285 DEBUG Palavra: caminho
+2024-07-28 12:26:15,285 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:15,285 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:15,285 DEBUG Tentativas: []
+2024-07-28 12:26:15,285 DEBUG Vit�ria: True
+2024-07-28 12:26:15,286 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:15,313 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:15,313 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:15,735 DEBUG Tentativa: caminho
+2024-07-28 12:26:15,735 DEBUG Palavra: caminho
+2024-07-28 12:26:15,735 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:15,735 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:15,735 DEBUG Tentativas: []
+2024-07-28 12:26:15,735 DEBUG Vit�ria: True
+2024-07-28 12:26:15,735 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:15,762 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:15,763 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:15,934 DEBUG Tentativa: caminho
+2024-07-28 12:26:15,935 DEBUG Palavra: caminho
+2024-07-28 12:26:15,935 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:15,935 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:15,935 DEBUG Tentativas: []
+2024-07-28 12:26:15,935 DEBUG Vit�ria: True
+2024-07-28 12:26:15,935 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:15,964 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:15,964 INFO 127.0.0.1 - - [28/Jul/2024 12:26:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:16,123 DEBUG Tentativa: caminho
+2024-07-28 12:26:16,123 DEBUG Palavra: caminho
+2024-07-28 12:26:16,123 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:16,123 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:16,123 DEBUG Tentativas: []
+2024-07-28 12:26:16,123 DEBUG Vit�ria: True
+2024-07-28 12:26:16,124 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:16,150 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:16,150 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:16,304 DEBUG Tentativa: caminho
+2024-07-28 12:26:16,304 DEBUG Palavra: caminho
+2024-07-28 12:26:16,304 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:16,305 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:16,305 DEBUG Tentativas: []
+2024-07-28 12:26:16,305 DEBUG Vit�ria: True
+2024-07-28 12:26:16,305 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:16,332 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:16,332 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:16,485 DEBUG Tentativa: caminho
+2024-07-28 12:26:16,485 DEBUG Palavra: caminho
+2024-07-28 12:26:16,485 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:16,485 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:16,485 DEBUG Tentativas: []
+2024-07-28 12:26:16,485 DEBUG Vit�ria: True
+2024-07-28 12:26:16,485 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:16,508 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:16,512 INFO 127.0.0.1 - - [28/Jul/2024 12:26:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:43,249 DEBUG Tentativa: caminho
+2024-07-28 12:26:43,249 DEBUG Palavra: caminho
+2024-07-28 12:26:43,249 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 12:26:43,249 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:43,249 DEBUG Tentativas: []
+2024-07-28 12:26:43,249 DEBUG Vit�ria: True
+2024-07-28 12:26:43,250 INFO 127.0.0.1 - - [28/Jul/2024 12:26:43] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:43,275 INFO 127.0.0.1 - - [28/Jul/2024 12:26:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:43,276 INFO 127.0.0.1 - - [28/Jul/2024 12:26:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:44,565 DEBUG Nova Palavra: sol
+2024-07-28 12:26:44,566 INFO 127.0.0.1 - - [28/Jul/2024 12:26:44] "GET / HTTP/1.1" 200 -
+2024-07-28 12:26:51,035 DEBUG Tentativa: caminhlua
+2024-07-28 12:26:51,035 DEBUG Palavra: sol
+2024-07-28 12:26:51,035 DEBUG Resultado: [('c', 'default'), ('a', 'default'), ('m', 'default')]
+2024-07-28 12:26:51,035 DEBUG Tentativas Restantes: 5
+2024-07-28 12:26:51,035 DEBUG Tentativas: []
+2024-07-28 12:26:51,035 DEBUG Vit�ria: False
+2024-07-28 12:26:51,036 INFO 127.0.0.1 - - [28/Jul/2024 12:26:51] "POST / HTTP/1.1" 200 -
+2024-07-28 12:26:51,069 INFO 127.0.0.1 - - [28/Jul/2024 12:26:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:51,070 INFO 127.0.0.1 - - [28/Jul/2024 12:26:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:26:59,441 DEBUG Nova Palavra: estrela
+2024-07-28 12:26:59,442 INFO 127.0.0.1 - - [28/Jul/2024 12:26:59] "GET / HTTP/1.1" 200 -
+2024-07-28 12:26:59,454 INFO 127.0.0.1 - - [28/Jul/2024 12:26:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:26:59,455 INFO 127.0.0.1 - - [28/Jul/2024 12:26:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:27:58,234 INFO 127.0.0.1 - - [28/Jul/2024 12:27:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:29:00,212 DEBUG Nova Palavra: livro
+2024-07-28 12:29:00,213 INFO 127.0.0.1 - - [28/Jul/2024 12:29:00] "GET / HTTP/1.1" 200 -
+2024-07-28 12:29:00,242 INFO 127.0.0.1 - - [28/Jul/2024 12:29:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:29:00,248 INFO 127.0.0.1 - - [28/Jul/2024 12:29:00] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:30:08,864 DEBUG Nova Palavra: gato
+2024-07-28 12:30:08,865 INFO 127.0.0.1 - - [28/Jul/2024 12:30:08] "GET / HTTP/1.1" 200 -
+2024-07-28 12:30:08,897 INFO 127.0.0.1 - - [28/Jul/2024 12:30:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:30:08,903 INFO 127.0.0.1 - - [28/Jul/2024 12:30:08] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:31:10,425 DEBUG Nova Palavra: cachorro
+2024-07-28 12:31:10,425 INFO 127.0.0.1 - - [28/Jul/2024 12:31:10] "GET / HTTP/1.1" 200 -
+2024-07-28 12:31:10,453 INFO 127.0.0.1 - - [28/Jul/2024 12:31:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:31:10,459 INFO 127.0.0.1 - - [28/Jul/2024 12:31:10] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:33:19,976 DEBUG Nova Palavra: cachorro
+2024-07-28 12:33:19,977 INFO 127.0.0.1 - - [28/Jul/2024 12:33:19] "GET / HTTP/1.1" 200 -
+2024-07-28 12:33:20,005 INFO 127.0.0.1 - - [28/Jul/2024 12:33:20] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:33:20,006 INFO 127.0.0.1 - - [28/Jul/2024 12:33:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:36:53,875 DEBUG Nova Palavra: cachorro
+2024-07-28 12:36:53,876 INFO 127.0.0.1 - - [28/Jul/2024 12:36:53] "GET / HTTP/1.1" 200 -
+2024-07-28 12:36:53,908 INFO 127.0.0.1 - - [28/Jul/2024 12:36:53] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:36:53,908 INFO 127.0.0.1 - - [28/Jul/2024 12:36:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:37:03,962 DEBUG Tentativa: varrosli
+2024-07-28 12:37:03,962 DEBUG Palavra: cachorro
+2024-07-28 12:37:03,962 DEBUG Resultado: [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]
+2024-07-28 12:37:03,962 DEBUG Tentativas Restantes: 5
+2024-07-28 12:37:03,962 DEBUG Tentativas: []
+2024-07-28 12:37:03,962 DEBUG Vit�ria: False
+2024-07-28 12:37:03,963 INFO 127.0.0.1 - - [28/Jul/2024 12:37:03] "POST / HTTP/1.1" 200 -
+2024-07-28 12:37:04,001 INFO 127.0.0.1 - - [28/Jul/2024 12:37:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:37:04,002 INFO 127.0.0.1 - - [28/Jul/2024 12:37:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:37:21,356 DEBUG Tentativa: varrosli
+2024-07-28 12:37:21,356 DEBUG Palavra: cachorro
+2024-07-28 12:37:21,356 DEBUG Resultado: [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]
+2024-07-28 12:37:21,356 DEBUG Tentativas Restantes: 4
+2024-07-28 12:37:21,356 DEBUG Tentativas: [[('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]]
+2024-07-28 12:37:21,356 DEBUG Vit�ria: False
+2024-07-28 12:37:21,358 INFO 127.0.0.1 - - [28/Jul/2024 12:37:21] "POST / HTTP/1.1" 200 -
+2024-07-28 12:37:21,386 INFO 127.0.0.1 - - [28/Jul/2024 12:37:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:37:21,392 INFO 127.0.0.1 - - [28/Jul/2024 12:37:21] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:37:55,539 DEBUG Tentativa: varrosli
+2024-07-28 12:37:55,539 DEBUG Palavra: cachorro
+2024-07-28 12:37:55,540 DEBUG Resultado: [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]
+2024-07-28 12:37:55,540 DEBUG Tentativas Restantes: 3
+2024-07-28 12:37:55,540 DEBUG Tentativas: [[('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]]
+2024-07-28 12:37:55,540 DEBUG Vit�ria: False
+2024-07-28 12:37:55,541 INFO 127.0.0.1 - - [28/Jul/2024 12:37:55] "POST / HTTP/1.1" 200 -
+2024-07-28 12:37:55,571 INFO 127.0.0.1 - - [28/Jul/2024 12:37:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:37:55,571 INFO 127.0.0.1 - - [28/Jul/2024 12:37:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:38:06,606 DEBUG Tentativa: varrosli
+2024-07-28 12:38:06,606 DEBUG Palavra: cachorro
+2024-07-28 12:38:06,606 DEBUG Resultado: [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]
+2024-07-28 12:38:06,606 DEBUG Tentativas Restantes: 2
+2024-07-28 12:38:06,606 DEBUG Tentativas: [[('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]]
+2024-07-28 12:38:06,606 DEBUG Vit�ria: False
+2024-07-28 12:38:06,608 INFO 127.0.0.1 - - [28/Jul/2024 12:38:06] "POST / HTTP/1.1" 200 -
+2024-07-28 12:38:06,635 INFO 127.0.0.1 - - [28/Jul/2024 12:38:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:38:06,641 INFO 127.0.0.1 - - [28/Jul/2024 12:38:06] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:38:09,796 DEBUG Tentativa: 
+2024-07-28 12:38:09,796 DEBUG Palavra: cachorro
+2024-07-28 12:38:09,796 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:38:09,796 DEBUG Tentativas Restantes: 1
+2024-07-28 12:38:09,796 DEBUG Tentativas: [[('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')]]
+2024-07-28 12:38:09,796 DEBUG Vit�ria: False
+2024-07-28 12:38:09,797 INFO 127.0.0.1 - - [28/Jul/2024 12:38:09] "POST / HTTP/1.1" 200 -
+2024-07-28 12:38:09,831 INFO 127.0.0.1 - - [28/Jul/2024 12:38:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:38:09,835 INFO 127.0.0.1 - - [28/Jul/2024 12:38:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:40:46,100 DEBUG Tentativa: 
+2024-07-28 12:40:46,100 DEBUG Palavra: cachorro
+2024-07-28 12:40:46,100 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:40:46,100 DEBUG Tentativas Restantes: 0
+2024-07-28 12:40:46,100 DEBUG Tentativas: [[('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:40:46,100 DEBUG Vit�ria: False
+2024-07-28 12:40:46,101 INFO 127.0.0.1 - - [28/Jul/2024 12:40:46] "POST / HTTP/1.1" 200 -
+2024-07-28 12:40:46,130 INFO 127.0.0.1 - - [28/Jul/2024 12:40:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:40:46,137 INFO 127.0.0.1 - - [28/Jul/2024 12:40:46] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:43:55,257 DEBUG Tentativa: 
+2024-07-28 12:43:55,257 DEBUG Palavra: cachorro
+2024-07-28 12:43:55,257 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:43:55,257 DEBUG Tentativas Restantes: -1
+2024-07-28 12:43:55,257 DEBUG Tentativas: [[('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('v', 'default'), ('a', 'correct'), ('r', 'incorrect'), ('r', 'incorrect'), ('o', 'correct'), ('s', 'default'), ('l', 'default'), ('i', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:43:55,257 DEBUG Vit�ria: False
+2024-07-28 12:43:55,263 INFO 127.0.0.1 - - [28/Jul/2024 12:43:55] "POST / HTTP/1.1" 200 -
+2024-07-28 12:43:55,295 INFO 127.0.0.1 - - [28/Jul/2024 12:43:55] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:43:55,300 INFO 127.0.0.1 - - [28/Jul/2024 12:43:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:44:42,258 DEBUG Nova Palavra: gato
+2024-07-28 12:44:42,258 INFO 127.0.0.1 - - [28/Jul/2024 12:44:42] "GET / HTTP/1.1" 200 -
+2024-07-28 12:45:51,078 DEBUG Nova Palavra: lua
+2024-07-28 12:45:51,080 INFO 127.0.0.1 - - [28/Jul/2024 12:45:51] "GET / HTTP/1.1" 200 -
+2024-07-28 12:45:51,106 INFO 127.0.0.1 - - [28/Jul/2024 12:45:51] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:45:51,107 INFO 127.0.0.1 - - [28/Jul/2024 12:45:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:45:51,908 DEBUG Nova Palavra: gato
+2024-07-28 12:45:51,908 INFO 127.0.0.1 - - [28/Jul/2024 12:45:51] "GET / HTTP/1.1" 200 -
+2024-07-28 12:45:51,941 INFO 127.0.0.1 - - [28/Jul/2024 12:45:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:45:51,943 INFO 127.0.0.1 - - [28/Jul/2024 12:45:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:45:52,440 DEBUG Nova Palavra: lua
+2024-07-28 12:45:52,441 INFO 127.0.0.1 - - [28/Jul/2024 12:45:52] "GET / HTTP/1.1" 200 -
+2024-07-28 12:45:52,465 INFO 127.0.0.1 - - [28/Jul/2024 12:45:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:45:52,467 INFO 127.0.0.1 - - [28/Jul/2024 12:45:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:45:53,276 DEBUG Nova Palavra: estrela
+2024-07-28 12:45:53,277 INFO 127.0.0.1 - - [28/Jul/2024 12:45:53] "GET / HTTP/1.1" 200 -
+2024-07-28 12:45:53,302 INFO 127.0.0.1 - - [28/Jul/2024 12:45:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:45:53,304 INFO 127.0.0.1 - - [28/Jul/2024 12:45:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:46:08,045 DEBUG Tentativa: caminho
+2024-07-28 12:46:08,045 DEBUG Palavra: estrela
+2024-07-28 12:46:08,045 DEBUG Resultado: [('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]
+2024-07-28 12:46:08,045 DEBUG Tentativas Restantes: 5
+2024-07-28 12:46:08,045 DEBUG Tentativas: []
+2024-07-28 12:46:08,045 DEBUG Vit�ria: False
+2024-07-28 12:46:08,046 INFO 127.0.0.1 - - [28/Jul/2024 12:46:08] "POST / HTTP/1.1" 200 -
+2024-07-28 12:46:08,079 INFO 127.0.0.1 - - [28/Jul/2024 12:46:08] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:46:08,080 INFO 127.0.0.1 - - [28/Jul/2024 12:46:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:46:20,101 DEBUG Tentativa: portas
+2024-07-28 12:46:20,101 DEBUG Palavra: estrela
+2024-07-28 12:46:20,101 DEBUG Resultado: [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')]
+2024-07-28 12:46:20,101 DEBUG Tentativas Restantes: 4
+2024-07-28 12:46:20,101 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')]]
+2024-07-28 12:46:20,101 DEBUG Vit�ria: False
+2024-07-28 12:46:20,101 INFO 127.0.0.1 - - [28/Jul/2024 12:46:20] "POST / HTTP/1.1" 200 -
+2024-07-28 12:46:20,139 INFO 127.0.0.1 - - [28/Jul/2024 12:46:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:46:20,141 INFO 127.0.0.1 - - [28/Jul/2024 12:46:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:48:18,357 DEBUG Tentativa: cartos
+2024-07-28 12:48:18,358 DEBUG Palavra: estrela
+2024-07-28 12:48:18,358 DEBUG Resultado: [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')]
+2024-07-28 12:48:18,358 DEBUG Tentativas Restantes: 3
+2024-07-28 12:48:18,358 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')]]
+2024-07-28 12:48:18,358 DEBUG Vit�ria: False
+2024-07-28 12:48:18,359 INFO 127.0.0.1 - - [28/Jul/2024 12:48:18] "POST / HTTP/1.1" 200 -
+2024-07-28 12:48:18,394 INFO 127.0.0.1 - - [28/Jul/2024 12:48:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:48:18,395 INFO 127.0.0.1 - - [28/Jul/2024 12:48:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:48:19,114 DEBUG Tentativa: 
+2024-07-28 12:48:19,114 DEBUG Palavra: estrela
+2024-07-28 12:48:19,114 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:48:19,114 DEBUG Tentativas Restantes: 2
+2024-07-28 12:48:19,114 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')]]
+2024-07-28 12:48:19,114 DEBUG Vit�ria: False
+2024-07-28 12:48:19,115 INFO 127.0.0.1 - - [28/Jul/2024 12:48:19] "POST / HTTP/1.1" 200 -
+2024-07-28 12:48:19,153 INFO 127.0.0.1 - - [28/Jul/2024 12:48:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:48:19,154 INFO 127.0.0.1 - - [28/Jul/2024 12:48:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:48:20,817 DEBUG Tentativa: 
+2024-07-28 12:48:20,817 DEBUG Palavra: estrela
+2024-07-28 12:48:20,817 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:48:20,817 DEBUG Tentativas Restantes: 1
+2024-07-28 12:48:20,817 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:48:20,817 DEBUG Vit�ria: False
+2024-07-28 12:48:20,818 INFO 127.0.0.1 - - [28/Jul/2024 12:48:20] "POST / HTTP/1.1" 200 -
+2024-07-28 12:48:20,854 INFO 127.0.0.1 - - [28/Jul/2024 12:48:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:48:20,857 INFO 127.0.0.1 - - [28/Jul/2024 12:48:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:51:00,738 DEBUG Tentativa: 
+2024-07-28 12:51:00,738 DEBUG Palavra: estrela
+2024-07-28 12:51:00,738 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:51:00,738 DEBUG Tentativas Restantes: 0
+2024-07-28 12:51:00,738 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:51:00,738 DEBUG Vit�ria: False
+2024-07-28 12:51:00,739 INFO 127.0.0.1 - - [28/Jul/2024 12:51:00] "POST / HTTP/1.1" 200 -
+2024-07-28 12:51:00,767 INFO 127.0.0.1 - - [28/Jul/2024 12:51:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:51:00,768 INFO 127.0.0.1 - - [28/Jul/2024 12:51:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:51:01,810 DEBUG Tentativa: 
+2024-07-28 12:51:01,810 DEBUG Palavra: estrela
+2024-07-28 12:51:01,810 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:51:01,810 DEBUG Tentativas Restantes: -1
+2024-07-28 12:51:01,810 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:51:01,811 DEBUG Vit�ria: False
+2024-07-28 12:51:01,811 INFO 127.0.0.1 - - [28/Jul/2024 12:51:01] "POST / HTTP/1.1" 200 -
+2024-07-28 12:51:01,836 INFO 127.0.0.1 - - [28/Jul/2024 12:51:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:51:01,838 INFO 127.0.0.1 - - [28/Jul/2024 12:51:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:51:09,903 DEBUG Tentativa: 
+2024-07-28 12:51:09,903 DEBUG Palavra: estrela
+2024-07-28 12:51:09,903 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:51:09,903 DEBUG Tentativas Restantes: -2
+2024-07-28 12:51:09,903 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:51:09,903 DEBUG Vit�ria: False
+2024-07-28 12:51:09,904 INFO 127.0.0.1 - - [28/Jul/2024 12:51:09] "POST / HTTP/1.1" 200 -
+2024-07-28 12:51:09,931 INFO 127.0.0.1 - - [28/Jul/2024 12:51:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:51:09,936 INFO 127.0.0.1 - - [28/Jul/2024 12:51:09] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:51:32,937 DEBUG Tentativa: 
+2024-07-28 12:51:32,937 DEBUG Palavra: estrela
+2024-07-28 12:51:32,937 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:51:32,937 DEBUG Tentativas Restantes: -3
+2024-07-28 12:51:32,937 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:51:32,938 DEBUG Vit�ria: False
+2024-07-28 12:51:32,938 INFO 127.0.0.1 - - [28/Jul/2024 12:51:32] "POST / HTTP/1.1" 200 -
+2024-07-28 12:51:32,984 INFO 127.0.0.1 - - [28/Jul/2024 12:51:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 12:51:32,986 INFO 127.0.0.1 - - [28/Jul/2024 12:51:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 12:56:17,045 DEBUG Tentativa: 
+2024-07-28 12:56:17,045 DEBUG Palavra: estrela
+2024-07-28 12:56:17,045 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 12:56:17,045 DEBUG Tentativas Restantes: -4
+2024-07-28 12:56:17,045 DEBUG Tentativas: [[('c', 'default'), ('a', 'incorrect'), ('m', 'default'), ('i', 'default'), ('n', 'default'), ('h', 'default'), ('o', 'default')], [('p', 'default'), ('o', 'default'), ('r', 'incorrect'), ('t', 'incorrect'), ('a', 'incorrect'), ('s', 'incorrect'), ('_', 'default')], [('c', 'default'), ('a', 'incorrect'), ('r', 'incorrect'), ('t', 'incorrect'), ('o', 'default'), ('s', 'incorrect'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 12:56:17,045 DEBUG Vit�ria: False
+2024-07-28 12:56:17,046 INFO 127.0.0.1 - - [28/Jul/2024 12:56:17] "POST / HTTP/1.1" 200 -
+2024-07-28 12:56:17,077 INFO 127.0.0.1 - - [28/Jul/2024 12:56:17] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 12:56:17,078 INFO 127.0.0.1 - - [28/Jul/2024 12:56:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:27:50,925 DEBUG Nova Palavra: porta
+2024-07-28 14:27:50,927 INFO 127.0.0.1 - - [28/Jul/2024 14:27:50] "GET / HTTP/1.1" 200 -
+2024-07-28 14:27:50,951 INFO 127.0.0.1 - - [28/Jul/2024 14:27:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:27:50,958 INFO 127.0.0.1 - - [28/Jul/2024 14:27:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:27:53,348 INFO 127.0.0.1 - - [28/Jul/2024 14:27:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-28 14:28:07,324 DEBUG Tentativa: porta
+2024-07-28 14:28:07,324 DEBUG Palavra: porta
+2024-07-28 14:28:07,324 DEBUG Resultado: [('p', 'correct'), ('o', 'correct'), ('r', 'correct'), ('t', 'correct'), ('a', 'correct')]
+2024-07-28 14:28:07,324 DEBUG Tentativas Restantes: 5
+2024-07-28 14:28:07,324 DEBUG Tentativas: []
+2024-07-28 14:28:07,324 DEBUG Vit�ria: False
+2024-07-28 14:28:07,325 INFO 127.0.0.1 - - [28/Jul/2024 14:28:07] "POST / HTTP/1.1" 200 -
+2024-07-28 14:28:07,364 INFO 127.0.0.1 - - [28/Jul/2024 14:28:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:28:07,366 INFO 127.0.0.1 - - [28/Jul/2024 14:28:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:31:18,744 DEBUG Tentativa: porta
+2024-07-28 14:31:18,744 DEBUG Palavra: porta
+2024-07-28 14:31:18,744 DEBUG Resultado: [('p', 'correct'), ('o', 'correct'), ('r', 'correct'), ('t', 'correct'), ('a', 'correct')]
+2024-07-28 14:31:18,744 DEBUG Tentativas Restantes: 5
+2024-07-28 14:31:18,744 DEBUG Tentativas: []
+2024-07-28 14:31:18,744 DEBUG Vit�ria: True
+2024-07-28 14:31:18,749 INFO 127.0.0.1 - - [28/Jul/2024 14:31:18] "POST / HTTP/1.1" 200 -
+2024-07-28 14:31:18,780 INFO 127.0.0.1 - - [28/Jul/2024 14:31:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:31:18,782 INFO 127.0.0.1 - - [28/Jul/2024 14:31:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:31:19,546 DEBUG Tentativa: porta
+2024-07-28 14:31:19,546 DEBUG Palavra: porta
+2024-07-28 14:31:19,546 DEBUG Resultado: [('p', 'correct'), ('o', 'correct'), ('r', 'correct'), ('t', 'correct'), ('a', 'correct')]
+2024-07-28 14:31:19,546 DEBUG Tentativas Restantes: 5
+2024-07-28 14:31:19,546 DEBUG Tentativas: []
+2024-07-28 14:31:19,546 DEBUG Vit�ria: True
+2024-07-28 14:31:19,546 INFO 127.0.0.1 - - [28/Jul/2024 14:31:19] "POST / HTTP/1.1" 200 -
+2024-07-28 14:31:19,572 INFO 127.0.0.1 - - [28/Jul/2024 14:31:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:31:19,573 INFO 127.0.0.1 - - [28/Jul/2024 14:31:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:32:57,570 DEBUG Tentativa: porta
+2024-07-28 14:32:57,570 DEBUG Palavra: porta
+2024-07-28 14:32:57,572 DEBUG Resultado: [('p', 'correct'), ('o', 'correct'), ('r', 'correct'), ('t', 'correct'), ('a', 'correct')]
+2024-07-28 14:32:57,572 DEBUG Tentativas Restantes: 5
+2024-07-28 14:32:57,572 DEBUG Tentativas: []
+2024-07-28 14:32:57,572 DEBUG Vit�ria: True
+2024-07-28 14:32:57,577 INFO 127.0.0.1 - - [28/Jul/2024 14:32:57] "POST / HTTP/1.1" 200 -
+2024-07-28 14:32:57,603 INFO 127.0.0.1 - - [28/Jul/2024 14:32:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:32:57,610 INFO 127.0.0.1 - - [28/Jul/2024 14:32:57] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:33:21,830 DEBUG Tentativa: porta
+2024-07-28 14:33:21,830 DEBUG Palavra: porta
+2024-07-28 14:33:21,830 DEBUG Resultado: [('p', 'correct'), ('o', 'correct'), ('r', 'correct'), ('t', 'correct'), ('a', 'correct')]
+2024-07-28 14:33:21,830 DEBUG Tentativas Restantes: 5
+2024-07-28 14:33:21,830 DEBUG Tentativas: []
+2024-07-28 14:33:21,830 DEBUG Vit�ria: True
+2024-07-28 14:33:21,831 INFO 127.0.0.1 - - [28/Jul/2024 14:33:21] "POST / HTTP/1.1" 200 -
+2024-07-28 14:33:21,856 INFO 127.0.0.1 - - [28/Jul/2024 14:33:21] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:33:21,861 INFO 127.0.0.1 - - [28/Jul/2024 14:33:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:06,857 DEBUG Tentativa: porta
+2024-07-28 14:34:06,857 DEBUG Palavra: porta
+2024-07-28 14:34:06,857 DEBUG Resultado: [('p', 'correct'), ('o', 'correct'), ('r', 'correct'), ('t', 'correct'), ('a', 'correct')]
+2024-07-28 14:34:06,857 DEBUG Tentativas Restantes: 5
+2024-07-28 14:34:06,857 DEBUG Tentativas: []
+2024-07-28 14:34:06,857 DEBUG Vit�ria: True
+2024-07-28 14:34:06,858 INFO 127.0.0.1 - - [28/Jul/2024 14:34:06] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:06,895 INFO 127.0.0.1 - - [28/Jul/2024 14:34:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:06,901 INFO 127.0.0.1 - - [28/Jul/2024 14:34:06] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:34:18,712 DEBUG Tentativa: 
+2024-07-28 14:34:18,712 DEBUG Palavra: porta
+2024-07-28 14:34:18,712 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:34:18,712 DEBUG Tentativas Restantes: 5
+2024-07-28 14:34:18,712 DEBUG Tentativas: []
+2024-07-28 14:34:18,712 DEBUG Vit�ria: True
+2024-07-28 14:34:18,713 INFO 127.0.0.1 - - [28/Jul/2024 14:34:18] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:18,741 INFO 127.0.0.1 - - [28/Jul/2024 14:34:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:34:18,749 INFO 127.0.0.1 - - [28/Jul/2024 14:34:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:19,821 DEBUG Tentativa: 
+2024-07-28 14:34:19,821 DEBUG Palavra: porta
+2024-07-28 14:34:19,821 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:34:19,821 DEBUG Tentativas Restantes: 4
+2024-07-28 14:34:19,821 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:34:19,821 DEBUG Vit�ria: True
+2024-07-28 14:34:19,822 INFO 127.0.0.1 - - [28/Jul/2024 14:34:19] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:19,850 INFO 127.0.0.1 - - [28/Jul/2024 14:34:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:34:19,855 INFO 127.0.0.1 - - [28/Jul/2024 14:34:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:20,487 DEBUG Tentativa: 
+2024-07-28 14:34:20,487 DEBUG Palavra: porta
+2024-07-28 14:34:20,487 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:34:20,487 DEBUG Tentativas Restantes: 3
+2024-07-28 14:34:20,487 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:34:20,488 DEBUG Vit�ria: True
+2024-07-28 14:34:20,488 INFO 127.0.0.1 - - [28/Jul/2024 14:34:20] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:20,516 INFO 127.0.0.1 - - [28/Jul/2024 14:34:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:34:20,516 INFO 127.0.0.1 - - [28/Jul/2024 14:34:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:20,905 DEBUG Tentativa: 
+2024-07-28 14:34:20,905 DEBUG Palavra: porta
+2024-07-28 14:34:20,905 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:34:20,905 DEBUG Tentativas Restantes: 2
+2024-07-28 14:34:20,905 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:34:20,905 DEBUG Vit�ria: True
+2024-07-28 14:34:20,906 INFO 127.0.0.1 - - [28/Jul/2024 14:34:20] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:20,934 INFO 127.0.0.1 - - [28/Jul/2024 14:34:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:34:20,938 INFO 127.0.0.1 - - [28/Jul/2024 14:34:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:21,317 DEBUG Tentativa: 
+2024-07-28 14:34:21,317 DEBUG Palavra: porta
+2024-07-28 14:34:21,317 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:34:21,317 DEBUG Tentativas Restantes: 1
+2024-07-28 14:34:21,317 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:34:21,317 DEBUG Vit�ria: True
+2024-07-28 14:34:21,318 INFO 127.0.0.1 - - [28/Jul/2024 14:34:21] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:21,346 INFO 127.0.0.1 - - [28/Jul/2024 14:34:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:34:21,347 INFO 127.0.0.1 - - [28/Jul/2024 14:34:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:41,811 DEBUG Tentativa: 
+2024-07-28 14:34:41,812 DEBUG Palavra: porta
+2024-07-28 14:34:41,812 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:34:41,812 DEBUG Tentativas Restantes: 0
+2024-07-28 14:34:41,812 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:34:41,812 DEBUG Vit�ria: True
+2024-07-28 14:34:41,812 INFO 127.0.0.1 - - [28/Jul/2024 14:34:41] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:41,838 INFO 127.0.0.1 - - [28/Jul/2024 14:34:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:34:41,844 INFO 127.0.0.1 - - [28/Jul/2024 14:34:41] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:34:56,415 DEBUG Tentativa: 
+2024-07-28 14:34:56,415 DEBUG Palavra: porta
+2024-07-28 14:34:56,415 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:34:56,415 DEBUG Tentativas Restantes: -1
+2024-07-28 14:34:56,416 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:34:56,416 DEBUG Vit�ria: True
+2024-07-28 14:34:56,416 INFO 127.0.0.1 - - [28/Jul/2024 14:34:56] "POST / HTTP/1.1" 200 -
+2024-07-28 14:34:56,442 INFO 127.0.0.1 - - [28/Jul/2024 14:34:56] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:34:56,442 INFO 127.0.0.1 - - [28/Jul/2024 14:34:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:08,775 DEBUG Tentativa: 
+2024-07-28 14:35:08,775 DEBUG Palavra: porta
+2024-07-28 14:35:08,775 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:35:08,775 DEBUG Tentativas Restantes: -2
+2024-07-28 14:35:08,775 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:35:08,775 DEBUG Vit�ria: True
+2024-07-28 14:35:08,776 INFO 127.0.0.1 - - [28/Jul/2024 14:35:08] "POST / HTTP/1.1" 200 -
+2024-07-28 14:35:08,803 INFO 127.0.0.1 - - [28/Jul/2024 14:35:08] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:35:08,804 INFO 127.0.0.1 - - [28/Jul/2024 14:35:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:18,512 DEBUG Nova Palavra: caminho
+2024-07-28 14:35:18,513 INFO 127.0.0.1 - - [28/Jul/2024 14:35:18] "GET / HTTP/1.1" 200 -
+2024-07-28 14:35:18,548 INFO 127.0.0.1 - - [28/Jul/2024 14:35:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:35:18,548 INFO 127.0.0.1 - - [28/Jul/2024 14:35:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:31,242 DEBUG Nova Palavra: estrela
+2024-07-28 14:35:31,243 INFO 127.0.0.1 - - [28/Jul/2024 14:35:31] "GET / HTTP/1.1" 200 -
+2024-07-28 14:35:31,269 INFO 127.0.0.1 - - [28/Jul/2024 14:35:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:31,275 INFO 127.0.0.1 - - [28/Jul/2024 14:35:31] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:35:45,927 DEBUG Tentativa: 
+2024-07-28 14:35:45,927 DEBUG Palavra: estrela
+2024-07-28 14:35:45,927 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:35:45,927 DEBUG Tentativas Restantes: 5
+2024-07-28 14:35:45,927 DEBUG Tentativas: []
+2024-07-28 14:35:45,927 DEBUG Vit�ria: False
+2024-07-28 14:35:45,928 INFO 127.0.0.1 - - [28/Jul/2024 14:35:45] "POST / HTTP/1.1" 200 -
+2024-07-28 14:35:45,961 INFO 127.0.0.1 - - [28/Jul/2024 14:35:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:35:45,964 INFO 127.0.0.1 - - [28/Jul/2024 14:35:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:47,598 DEBUG Tentativa: 
+2024-07-28 14:35:47,598 DEBUG Palavra: estrela
+2024-07-28 14:35:47,598 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:35:47,598 DEBUG Tentativas Restantes: 4
+2024-07-28 14:35:47,598 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:35:47,598 DEBUG Vit�ria: False
+2024-07-28 14:35:47,599 INFO 127.0.0.1 - - [28/Jul/2024 14:35:47] "POST / HTTP/1.1" 200 -
+2024-07-28 14:35:47,631 INFO 127.0.0.1 - - [28/Jul/2024 14:35:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:35:47,634 INFO 127.0.0.1 - - [28/Jul/2024 14:35:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:48,002 DEBUG Tentativa: 
+2024-07-28 14:35:48,002 DEBUG Palavra: estrela
+2024-07-28 14:35:48,002 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:35:48,002 DEBUG Tentativas Restantes: 3
+2024-07-28 14:35:48,002 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:35:48,002 DEBUG Vit�ria: False
+2024-07-28 14:35:48,002 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "POST / HTTP/1.1" 200 -
+2024-07-28 14:35:48,026 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:35:48,032 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:48,314 DEBUG Tentativa: 
+2024-07-28 14:35:48,314 DEBUG Palavra: estrela
+2024-07-28 14:35:48,314 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:35:48,314 DEBUG Tentativas Restantes: 2
+2024-07-28 14:35:48,314 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:35:48,314 DEBUG Vit�ria: False
+2024-07-28 14:35:48,315 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "POST / HTTP/1.1" 200 -
+2024-07-28 14:35:48,344 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:35:48,345 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:35:48,922 DEBUG Tentativa: 
+2024-07-28 14:35:48,922 DEBUG Palavra: estrela
+2024-07-28 14:35:48,922 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:35:48,922 DEBUG Tentativas Restantes: 1
+2024-07-28 14:35:48,922 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:35:48,922 DEBUG Vit�ria: False
+2024-07-28 14:35:48,922 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "POST / HTTP/1.1" 200 -
+2024-07-28 14:35:48,950 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:35:48,951 INFO 127.0.0.1 - - [28/Jul/2024 14:35:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:36:35,799 DEBUG Tentativa: 
+2024-07-28 14:36:35,800 DEBUG Palavra: estrela
+2024-07-28 14:36:35,800 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:36:35,800 DEBUG Tentativas Restantes: 0
+2024-07-28 14:36:35,800 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:36:35,800 DEBUG Vit�ria: False
+2024-07-28 14:36:35,801 INFO 127.0.0.1 - - [28/Jul/2024 14:36:35] "POST / HTTP/1.1" 200 -
+2024-07-28 14:36:35,827 INFO 127.0.0.1 - - [28/Jul/2024 14:36:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:36:35,833 INFO 127.0.0.1 - - [28/Jul/2024 14:36:35] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:36:39,484 DEBUG Tentativa: 
+2024-07-28 14:36:39,484 DEBUG Palavra: estrela
+2024-07-28 14:36:39,484 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:36:39,484 DEBUG Tentativas Restantes: -1
+2024-07-28 14:36:39,484 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:36:39,484 DEBUG Vit�ria: False
+2024-07-28 14:36:39,485 INFO 127.0.0.1 - - [28/Jul/2024 14:36:39] "POST / HTTP/1.1" 200 -
+2024-07-28 14:36:39,525 INFO 127.0.0.1 - - [28/Jul/2024 14:36:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:36:39,528 INFO 127.0.0.1 - - [28/Jul/2024 14:36:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:36:44,021 DEBUG Nova Palavra: sol
+2024-07-28 14:36:44,022 INFO 127.0.0.1 - - [28/Jul/2024 14:36:44] "GET / HTTP/1.1" 200 -
+2024-07-28 14:36:44,059 INFO 127.0.0.1 - - [28/Jul/2024 14:36:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:36:44,061 INFO 127.0.0.1 - - [28/Jul/2024 14:36:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:36:59,726 DEBUG Nova Palavra: caminho
+2024-07-28 14:36:59,726 INFO 127.0.0.1 - - [28/Jul/2024 14:36:59] "GET / HTTP/1.1" 200 -
+2024-07-28 14:36:59,752 INFO 127.0.0.1 - - [28/Jul/2024 14:36:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:36:59,759 INFO 127.0.0.1 - - [28/Jul/2024 14:36:59] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:37:09,279 DEBUG Nova Palavra: cachorro
+2024-07-28 14:37:09,279 INFO 127.0.0.1 - - [28/Jul/2024 14:37:09] "GET / HTTP/1.1" 200 -
+2024-07-28 14:37:09,304 INFO 127.0.0.1 - - [28/Jul/2024 14:37:09] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:37:09,306 INFO 127.0.0.1 - - [28/Jul/2024 14:37:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:37:27,472 DEBUG Nova Palavra: estrela
+2024-07-28 14:37:27,472 INFO 127.0.0.1 - - [28/Jul/2024 14:37:27] "GET / HTTP/1.1" 200 -
+2024-07-28 14:37:27,497 INFO 127.0.0.1 - - [28/Jul/2024 14:37:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:37:27,502 INFO 127.0.0.1 - - [28/Jul/2024 14:37:27] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:38:01,831 DEBUG Nova Palavra: livro
+2024-07-28 14:38:01,832 INFO 127.0.0.1 - - [28/Jul/2024 14:38:01] "GET / HTTP/1.1" 200 -
+2024-07-28 14:38:01,861 INFO 127.0.0.1 - - [28/Jul/2024 14:38:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:38:01,867 INFO 127.0.0.1 - - [28/Jul/2024 14:38:01] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:38:14,884 DEBUG Nova Palavra: caminho
+2024-07-28 14:38:14,885 INFO 127.0.0.1 - - [28/Jul/2024 14:38:14] "GET / HTTP/1.1" 200 -
+2024-07-28 14:38:14,909 INFO 127.0.0.1 - - [28/Jul/2024 14:38:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:38:14,915 INFO 127.0.0.1 - - [28/Jul/2024 14:38:14] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:39:00,406 DEBUG Nova Palavra: gato
+2024-07-28 14:39:00,406 INFO 127.0.0.1 - - [28/Jul/2024 14:39:00] "GET / HTTP/1.1" 200 -
+2024-07-28 14:39:00,433 INFO 127.0.0.1 - - [28/Jul/2024 14:39:00] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:39:00,433 INFO 127.0.0.1 - - [28/Jul/2024 14:39:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:39:13,259 DEBUG Nova Palavra: carro
+2024-07-28 14:39:13,260 INFO 127.0.0.1 - - [28/Jul/2024 14:39:13] "GET / HTTP/1.1" 200 -
+2024-07-28 14:39:13,289 INFO 127.0.0.1 - - [28/Jul/2024 14:39:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:39:13,294 INFO 127.0.0.1 - - [28/Jul/2024 14:39:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:39:23,667 DEBUG Nova Palavra: cachorro
+2024-07-28 14:39:23,668 INFO 127.0.0.1 - - [28/Jul/2024 14:39:23] "GET / HTTP/1.1" 200 -
+2024-07-28 14:39:23,693 INFO 127.0.0.1 - - [28/Jul/2024 14:39:23] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:39:23,694 INFO 127.0.0.1 - - [28/Jul/2024 14:39:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:39:36,516 DEBUG Nova Palavra: janela
+2024-07-28 14:39:36,517 INFO 127.0.0.1 - - [28/Jul/2024 14:39:36] "GET / HTTP/1.1" 200 -
+2024-07-28 14:39:36,544 INFO 127.0.0.1 - - [28/Jul/2024 14:39:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:39:36,551 INFO 127.0.0.1 - - [28/Jul/2024 14:39:36] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:40:03,434 DEBUG Nova Palavra: sol
+2024-07-28 14:40:03,435 INFO 127.0.0.1 - - [28/Jul/2024 14:40:03] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:03,460 INFO 127.0.0.1 - - [28/Jul/2024 14:40:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:40:03,467 INFO 127.0.0.1 - - [28/Jul/2024 14:40:03] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:40:04,643 DEBUG Nova Palavra: carro
+2024-07-28 14:40:04,644 INFO 127.0.0.1 - - [28/Jul/2024 14:40:04] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:04,669 INFO 127.0.0.1 - - [28/Jul/2024 14:40:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:40:04,670 INFO 127.0.0.1 - - [28/Jul/2024 14:40:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:40:32,828 DEBUG Nova Palavra: porta
+2024-07-28 14:40:32,829 INFO 127.0.0.1 - - [28/Jul/2024 14:40:32] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:32,857 INFO 127.0.0.1 - - [28/Jul/2024 14:40:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:40:32,864 INFO 127.0.0.1 - - [28/Jul/2024 14:40:32] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:40:33,464 DEBUG Nova Palavra: caminho
+2024-07-28 14:40:33,465 INFO 127.0.0.1 - - [28/Jul/2024 14:40:33] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:33,491 INFO 127.0.0.1 - - [28/Jul/2024 14:40:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:40:33,492 INFO 127.0.0.1 - - [28/Jul/2024 14:40:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:40:33,975 DEBUG Nova Palavra: livro
+2024-07-28 14:40:33,976 INFO 127.0.0.1 - - [28/Jul/2024 14:40:33] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:33,999 INFO 127.0.0.1 - - [28/Jul/2024 14:40:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:40:34,001 INFO 127.0.0.1 - - [28/Jul/2024 14:40:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:40:34,403 DEBUG Nova Palavra: porta
+2024-07-28 14:40:34,405 INFO 127.0.0.1 - - [28/Jul/2024 14:40:34] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:34,430 INFO 127.0.0.1 - - [28/Jul/2024 14:40:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:40:34,431 INFO 127.0.0.1 - - [28/Jul/2024 14:40:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:40:45,058 DEBUG Nova Palavra: lua
+2024-07-28 14:40:45,059 INFO 127.0.0.1 - - [28/Jul/2024 14:40:45] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:45,084 INFO 127.0.0.1 - - [28/Jul/2024 14:40:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:40:45,090 INFO 127.0.0.1 - - [28/Jul/2024 14:40:45] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:40:46,098 DEBUG Nova Palavra: gato
+2024-07-28 14:40:46,099 INFO 127.0.0.1 - - [28/Jul/2024 14:40:46] "GET / HTTP/1.1" 200 -
+2024-07-28 14:40:46,126 INFO 127.0.0.1 - - [28/Jul/2024 14:40:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:40:46,127 INFO 127.0.0.1 - - [28/Jul/2024 14:40:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:41:10,427 DEBUG Nova Palavra: estrela
+2024-07-28 14:41:10,428 INFO 127.0.0.1 - - [28/Jul/2024 14:41:10] "GET / HTTP/1.1" 200 -
+2024-07-28 14:41:10,453 INFO 127.0.0.1 - - [28/Jul/2024 14:41:10] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:41:10,454 INFO 127.0.0.1 - - [28/Jul/2024 14:41:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:41:48,598 DEBUG Nova Palavra: lua
+2024-07-28 14:41:48,599 INFO 127.0.0.1 - - [28/Jul/2024 14:41:48] "GET / HTTP/1.1" 200 -
+2024-07-28 14:41:48,627 INFO 127.0.0.1 - - [28/Jul/2024 14:41:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:41:48,633 INFO 127.0.0.1 - - [28/Jul/2024 14:41:48] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:42:07,540 DEBUG Nova Palavra: gato
+2024-07-28 14:42:07,541 INFO 127.0.0.1 - - [28/Jul/2024 14:42:07] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:07,567 INFO 127.0.0.1 - - [28/Jul/2024 14:42:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:07,572 INFO 127.0.0.1 - - [28/Jul/2024 14:42:07] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:42:12,129 DEBUG Nova Palavra: lua
+2024-07-28 14:42:12,130 INFO 127.0.0.1 - - [28/Jul/2024 14:42:12] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:12,155 INFO 127.0.0.1 - - [28/Jul/2024 14:42:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:12,155 INFO 127.0.0.1 - - [28/Jul/2024 14:42:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:12,767 DEBUG Nova Palavra: janela
+2024-07-28 14:42:12,767 INFO 127.0.0.1 - - [28/Jul/2024 14:42:12] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:12,792 INFO 127.0.0.1 - - [28/Jul/2024 14:42:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:12,793 INFO 127.0.0.1 - - [28/Jul/2024 14:42:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:13,650 DEBUG Nova Palavra: cachorro
+2024-07-28 14:42:13,651 INFO 127.0.0.1 - - [28/Jul/2024 14:42:13] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:13,675 INFO 127.0.0.1 - - [28/Jul/2024 14:42:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:13,676 INFO 127.0.0.1 - - [28/Jul/2024 14:42:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:17,030 DEBUG Nova Palavra: porta
+2024-07-28 14:42:17,031 INFO 127.0.0.1 - - [28/Jul/2024 14:42:17] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:17,057 INFO 127.0.0.1 - - [28/Jul/2024 14:42:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:17,057 INFO 127.0.0.1 - - [28/Jul/2024 14:42:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:17,872 DEBUG Nova Palavra: sol
+2024-07-28 14:42:17,873 INFO 127.0.0.1 - - [28/Jul/2024 14:42:17] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:17,898 INFO 127.0.0.1 - - [28/Jul/2024 14:42:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:17,899 INFO 127.0.0.1 - - [28/Jul/2024 14:42:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:18,296 DEBUG Nova Palavra: livro
+2024-07-28 14:42:18,297 INFO 127.0.0.1 - - [28/Jul/2024 14:42:18] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:18,321 INFO 127.0.0.1 - - [28/Jul/2024 14:42:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:18,321 INFO 127.0.0.1 - - [28/Jul/2024 14:42:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:18,706 DEBUG Nova Palavra: estrela
+2024-07-28 14:42:18,707 INFO 127.0.0.1 - - [28/Jul/2024 14:42:18] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:18,738 INFO 127.0.0.1 - - [28/Jul/2024 14:42:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:18,739 INFO 127.0.0.1 - - [28/Jul/2024 14:42:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:42:19,748 DEBUG Nova Palavra: porta
+2024-07-28 14:42:19,748 INFO 127.0.0.1 - - [28/Jul/2024 14:42:19] "GET / HTTP/1.1" 200 -
+2024-07-28 14:42:19,772 INFO 127.0.0.1 - - [28/Jul/2024 14:42:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:42:19,773 INFO 127.0.0.1 - - [28/Jul/2024 14:42:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:46:19,795 DEBUG Nova Palavra: janela
+2024-07-28 14:46:19,796 INFO 127.0.0.1 - - [28/Jul/2024 14:46:19] "GET / HTTP/1.1" 200 -
+2024-07-28 14:46:19,822 INFO 127.0.0.1 - - [28/Jul/2024 14:46:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:46:19,830 INFO 127.0.0.1 - - [28/Jul/2024 14:46:19] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:46:37,304 DEBUG Nova Palavra: lua
+2024-07-28 14:46:37,304 INFO 127.0.0.1 - - [28/Jul/2024 14:46:37] "GET / HTTP/1.1" 200 -
+2024-07-28 14:46:37,330 INFO 127.0.0.1 - - [28/Jul/2024 14:46:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:46:37,337 INFO 127.0.0.1 - - [28/Jul/2024 14:46:37] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:46:39,176 DEBUG Nova Palavra: livro
+2024-07-28 14:46:39,177 INFO 127.0.0.1 - - [28/Jul/2024 14:46:39] "GET / HTTP/1.1" 200 -
+2024-07-28 14:46:39,200 INFO 127.0.0.1 - - [28/Jul/2024 14:46:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:46:39,202 INFO 127.0.0.1 - - [28/Jul/2024 14:46:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:46:40,894 DEBUG Nova Palavra: carro
+2024-07-28 14:46:40,894 INFO 127.0.0.1 - - [28/Jul/2024 14:46:40] "GET / HTTP/1.1" 200 -
+2024-07-28 14:46:40,919 INFO 127.0.0.1 - - [28/Jul/2024 14:46:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:46:40,921 INFO 127.0.0.1 - - [28/Jul/2024 14:46:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:46:41,883 DEBUG Nova Palavra: livro
+2024-07-28 14:46:41,884 INFO 127.0.0.1 - - [28/Jul/2024 14:46:41] "GET / HTTP/1.1" 200 -
+2024-07-28 14:46:41,909 INFO 127.0.0.1 - - [28/Jul/2024 14:46:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:46:41,910 INFO 127.0.0.1 - - [28/Jul/2024 14:46:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:46:42,660 DEBUG Nova Palavra: carro
+2024-07-28 14:46:42,661 INFO 127.0.0.1 - - [28/Jul/2024 14:46:42] "GET / HTTP/1.1" 200 -
+2024-07-28 14:46:42,685 INFO 127.0.0.1 - - [28/Jul/2024 14:46:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:46:42,686 INFO 127.0.0.1 - - [28/Jul/2024 14:46:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:47:01,074 DEBUG Nova Palavra: livro
+2024-07-28 14:47:01,074 INFO 127.0.0.1 - - [28/Jul/2024 14:47:01] "GET / HTTP/1.1" 200 -
+2024-07-28 14:47:01,100 INFO 127.0.0.1 - - [28/Jul/2024 14:47:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:47:01,107 INFO 127.0.0.1 - - [28/Jul/2024 14:47:01] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:47:07,872 DEBUG Tentativa: 
+2024-07-28 14:47:07,872 DEBUG Palavra: livro
+2024-07-28 14:47:07,872 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:47:07,872 DEBUG Tentativas Restantes: 5
+2024-07-28 14:47:07,872 DEBUG Tentativas: []
+2024-07-28 14:47:07,872 DEBUG Vit�ria: False
+2024-07-28 14:47:07,873 INFO 127.0.0.1 - - [28/Jul/2024 14:47:07] "POST / HTTP/1.1" 200 -
+2024-07-28 14:47:07,903 INFO 127.0.0.1 - - [28/Jul/2024 14:47:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:47:07,907 INFO 127.0.0.1 - - [28/Jul/2024 14:47:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:48:06,663 DEBUG Tentativa: 
+2024-07-28 14:48:06,663 DEBUG Palavra: livro
+2024-07-28 14:48:06,663 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:48:06,664 DEBUG Tentativas Restantes: 4
+2024-07-28 14:48:06,664 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:48:06,664 DEBUG Vit�ria: False
+2024-07-28 14:48:06,664 INFO 127.0.0.1 - - [28/Jul/2024 14:48:06] "POST / HTTP/1.1" 200 -
+2024-07-28 14:48:06,692 INFO 127.0.0.1 - - [28/Jul/2024 14:48:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:48:06,699 INFO 127.0.0.1 - - [28/Jul/2024 14:48:06] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:48:33,013 DEBUG Tentativa: 
+2024-07-28 14:48:33,013 DEBUG Palavra: livro
+2024-07-28 14:48:33,013 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:48:33,013 DEBUG Tentativas Restantes: 3
+2024-07-28 14:48:33,013 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:48:33,013 DEBUG Vit�ria: False
+2024-07-28 14:48:33,015 INFO 127.0.0.1 - - [28/Jul/2024 14:48:33] "POST / HTTP/1.1" 200 -
+2024-07-28 14:48:33,040 INFO 127.0.0.1 - - [28/Jul/2024 14:48:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:48:33,047 INFO 127.0.0.1 - - [28/Jul/2024 14:48:33] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 14:48:33,904 DEBUG Tentativa: 
+2024-07-28 14:48:33,904 DEBUG Palavra: livro
+2024-07-28 14:48:33,904 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:48:33,904 DEBUG Tentativas Restantes: 2
+2024-07-28 14:48:33,904 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:48:33,904 DEBUG Vit�ria: False
+2024-07-28 14:48:33,905 INFO 127.0.0.1 - - [28/Jul/2024 14:48:33] "POST / HTTP/1.1" 200 -
+2024-07-28 14:48:33,932 INFO 127.0.0.1 - - [28/Jul/2024 14:48:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:48:33,932 INFO 127.0.0.1 - - [28/Jul/2024 14:48:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:48:34,570 DEBUG Tentativa: 
+2024-07-28 14:48:34,570 DEBUG Palavra: livro
+2024-07-28 14:48:34,570 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:48:34,570 DEBUG Tentativas Restantes: 1
+2024-07-28 14:48:34,570 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:48:34,570 DEBUG Vit�ria: False
+2024-07-28 14:48:34,571 INFO 127.0.0.1 - - [28/Jul/2024 14:48:34] "POST / HTTP/1.1" 200 -
+2024-07-28 14:48:34,595 INFO 127.0.0.1 - - [28/Jul/2024 14:48:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:48:34,597 INFO 127.0.0.1 - - [28/Jul/2024 14:48:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 14:48:35,939 DEBUG Tentativa: 
+2024-07-28 14:48:35,939 DEBUG Palavra: livro
+2024-07-28 14:48:35,939 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 14:48:35,939 DEBUG Tentativas Restantes: 0
+2024-07-28 14:48:35,939 DEBUG Tentativas: [[('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 14:48:35,939 DEBUG Vit�ria: False
+2024-07-28 14:48:35,940 INFO 127.0.0.1 - - [28/Jul/2024 14:48:35] "POST / HTTP/1.1" 200 -
+2024-07-28 14:48:35,966 INFO 127.0.0.1 - - [28/Jul/2024 14:48:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 14:48:35,967 INFO 127.0.0.1 - - [28/Jul/2024 14:48:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:08:39,455 DEBUG Nova Palavra: caminho
+2024-07-28 15:08:39,458 INFO 127.0.0.1 - - [28/Jul/2024 15:08:39] "GET / HTTP/1.1" 200 -
+2024-07-28 15:08:39,470 INFO 127.0.0.1 - - [28/Jul/2024 15:08:39] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:08:39,471 INFO 127.0.0.1 - - [28/Jul/2024 15:08:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:08:46,992 DEBUG Tentativa: caminho
+2024-07-28 15:08:46,993 DEBUG Palavra: caminho
+2024-07-28 15:08:46,993 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:08:46,993 DEBUG Tentativas Restantes: 5
+2024-07-28 15:08:46,993 DEBUG Tentativas: []
+2024-07-28 15:08:46,993 DEBUG Vit�ria: False
+2024-07-28 15:08:46,994 INFO 127.0.0.1 - - [28/Jul/2024 15:08:46] "POST / HTTP/1.1" 200 -
+2024-07-28 15:08:47,024 INFO 127.0.0.1 - - [28/Jul/2024 15:08:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:08:47,028 INFO 127.0.0.1 - - [28/Jul/2024 15:08:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:10:16,193 DEBUG Tentativa: caminho
+2024-07-28 15:10:16,193 DEBUG Palavra: caminho
+2024-07-28 15:10:16,193 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:10:16,193 DEBUG Tentativas Restantes: 5
+2024-07-28 15:10:16,193 DEBUG Tentativas: []
+2024-07-28 15:10:16,193 DEBUG Vit�ria: True
+2024-07-28 15:10:16,194 INFO 127.0.0.1 - - [28/Jul/2024 15:10:16] "POST / HTTP/1.1" 200 -
+2024-07-28 15:10:16,220 INFO 127.0.0.1 - - [28/Jul/2024 15:10:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:10:16,220 INFO 127.0.0.1 - - [28/Jul/2024 15:10:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:12:48,712 DEBUG Tentativa: caminho
+2024-07-28 15:12:48,712 DEBUG Palavra: caminho
+2024-07-28 15:12:48,712 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:12:48,712 DEBUG Tentativas Restantes: 5
+2024-07-28 15:12:48,712 DEBUG Tentativas: []
+2024-07-28 15:12:48,712 DEBUG Vit�ria: True
+2024-07-28 15:12:48,713 INFO 127.0.0.1 - - [28/Jul/2024 15:12:48] "POST / HTTP/1.1" 200 -
+2024-07-28 15:12:48,738 INFO 127.0.0.1 - - [28/Jul/2024 15:12:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:12:48,742 INFO 127.0.0.1 - - [28/Jul/2024 15:12:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:12:57,625 DEBUG Tentativa: caminho
+2024-07-28 15:12:57,625 DEBUG Palavra: caminho
+2024-07-28 15:12:57,625 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:12:57,625 DEBUG Tentativas Restantes: 5
+2024-07-28 15:12:57,625 DEBUG Tentativas: []
+2024-07-28 15:12:57,625 DEBUG Vit�ria: True
+2024-07-28 15:12:57,626 INFO 127.0.0.1 - - [28/Jul/2024 15:12:57] "POST / HTTP/1.1" 200 -
+2024-07-28 15:12:57,651 INFO 127.0.0.1 - - [28/Jul/2024 15:12:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:12:57,659 INFO 127.0.0.1 - - [28/Jul/2024 15:12:57] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:13:21,816 DEBUG Tentativa: caminho
+2024-07-28 15:13:21,816 DEBUG Palavra: caminho
+2024-07-28 15:13:21,816 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:13:21,817 DEBUG Tentativas Restantes: 5
+2024-07-28 15:13:21,817 DEBUG Tentativas: []
+2024-07-28 15:13:21,817 DEBUG Vit�ria: True
+2024-07-28 15:13:21,817 INFO 127.0.0.1 - - [28/Jul/2024 15:13:21] "POST / HTTP/1.1" 200 -
+2024-07-28 15:13:21,842 INFO 127.0.0.1 - - [28/Jul/2024 15:13:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:13:21,849 INFO 127.0.0.1 - - [28/Jul/2024 15:13:21] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:13:43,453 DEBUG Tentativa: caminho
+2024-07-28 15:13:43,453 DEBUG Palavra: caminho
+2024-07-28 15:13:43,454 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:13:43,454 DEBUG Tentativas Restantes: 5
+2024-07-28 15:13:43,454 DEBUG Tentativas: []
+2024-07-28 15:13:43,454 DEBUG Vit�ria: True
+2024-07-28 15:13:43,454 INFO 127.0.0.1 - - [28/Jul/2024 15:13:43] "POST / HTTP/1.1" 200 -
+2024-07-28 15:13:43,480 INFO 127.0.0.1 - - [28/Jul/2024 15:13:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:13:43,486 INFO 127.0.0.1 - - [28/Jul/2024 15:13:43] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:14:46,618 DEBUG Tentativa: caminho
+2024-07-28 15:14:46,618 DEBUG Palavra: caminho
+2024-07-28 15:14:46,618 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:14:46,618 DEBUG Tentativas Restantes: 5
+2024-07-28 15:14:46,618 DEBUG Tentativas: []
+2024-07-28 15:14:46,618 DEBUG Vit�ria: True
+2024-07-28 15:14:46,620 INFO 127.0.0.1 - - [28/Jul/2024 15:14:46] "POST / HTTP/1.1" 200 -
+2024-07-28 15:14:46,647 INFO 127.0.0.1 - - [28/Jul/2024 15:14:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:14:46,653 INFO 127.0.0.1 - - [28/Jul/2024 15:14:46] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:15:26,101 DEBUG Tentativa: caminho
+2024-07-28 15:15:26,101 DEBUG Palavra: caminho
+2024-07-28 15:15:26,101 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:15:26,101 DEBUG Tentativas Restantes: 5
+2024-07-28 15:15:26,101 DEBUG Tentativas: []
+2024-07-28 15:15:26,101 DEBUG Vit�ria: True
+2024-07-28 15:15:26,103 INFO 127.0.0.1 - - [28/Jul/2024 15:15:26] "POST / HTTP/1.1" 200 -
+2024-07-28 15:15:26,126 INFO 127.0.0.1 - - [28/Jul/2024 15:15:26] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:15:26,127 INFO 127.0.0.1 - - [28/Jul/2024 15:15:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:17:17,123 DEBUG Tentativa: caminho
+2024-07-28 15:17:17,123 DEBUG Palavra: caminho
+2024-07-28 15:17:17,123 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:17:17,123 DEBUG Tentativas Restantes: 5
+2024-07-28 15:17:17,123 DEBUG Tentativas: []
+2024-07-28 15:17:17,123 DEBUG Vit�ria: True
+2024-07-28 15:17:17,124 INFO 127.0.0.1 - - [28/Jul/2024 15:17:17] "POST / HTTP/1.1" 200 -
+2024-07-28 15:17:17,155 INFO 127.0.0.1 - - [28/Jul/2024 15:17:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:17:17,161 INFO 127.0.0.1 - - [28/Jul/2024 15:17:17] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:18:57,681 DEBUG Tentativa: caminho
+2024-07-28 15:18:57,681 DEBUG Palavra: caminho
+2024-07-28 15:18:57,681 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:18:57,681 DEBUG Tentativas Restantes: 5
+2024-07-28 15:18:57,681 DEBUG Tentativas: []
+2024-07-28 15:18:57,681 DEBUG Vit�ria: True
+2024-07-28 15:18:57,682 INFO 127.0.0.1 - - [28/Jul/2024 15:18:57] "POST / HTTP/1.1" 200 -
+2024-07-28 15:18:57,708 INFO 127.0.0.1 - - [28/Jul/2024 15:18:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:18:57,714 INFO 127.0.0.1 - - [28/Jul/2024 15:18:57] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:19:42,263 DEBUG Tentativa: caminho
+2024-07-28 15:19:42,263 DEBUG Palavra: caminho
+2024-07-28 15:19:42,263 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:19:42,263 DEBUG Tentativas Restantes: 5
+2024-07-28 15:19:42,264 DEBUG Tentativas: []
+2024-07-28 15:19:42,264 DEBUG Vit�ria: True
+2024-07-28 15:19:42,264 INFO 127.0.0.1 - - [28/Jul/2024 15:19:42] "POST / HTTP/1.1" 200 -
+2024-07-28 15:19:42,291 INFO 127.0.0.1 - - [28/Jul/2024 15:19:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:19:42,296 INFO 127.0.0.1 - - [28/Jul/2024 15:19:42] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:20:18,911 DEBUG Tentativa: caminho
+2024-07-28 15:20:18,912 DEBUG Palavra: caminho
+2024-07-28 15:20:18,912 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:20:18,912 DEBUG Tentativas Restantes: 5
+2024-07-28 15:20:18,912 DEBUG Tentativas: []
+2024-07-28 15:20:18,912 DEBUG Vit�ria: True
+2024-07-28 15:20:18,912 INFO 127.0.0.1 - - [28/Jul/2024 15:20:18] "POST / HTTP/1.1" 200 -
+2024-07-28 15:20:18,940 INFO 127.0.0.1 - - [28/Jul/2024 15:20:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:20:18,948 INFO 127.0.0.1 - - [28/Jul/2024 15:20:18] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:20:19,760 DEBUG Tentativa: caminho
+2024-07-28 15:20:19,760 DEBUG Palavra: caminho
+2024-07-28 15:20:19,760 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:20:19,760 DEBUG Tentativas Restantes: 5
+2024-07-28 15:20:19,760 DEBUG Tentativas: []
+2024-07-28 15:20:19,760 DEBUG Vit�ria: True
+2024-07-28 15:20:19,761 INFO 127.0.0.1 - - [28/Jul/2024 15:20:19] "POST / HTTP/1.1" 200 -
+2024-07-28 15:20:19,785 INFO 127.0.0.1 - - [28/Jul/2024 15:20:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:20:19,788 INFO 127.0.0.1 - - [28/Jul/2024 15:20:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:20:20,199 DEBUG Tentativa: caminho
+2024-07-28 15:20:20,199 DEBUG Palavra: caminho
+2024-07-28 15:20:20,199 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:20:20,199 DEBUG Tentativas Restantes: 5
+2024-07-28 15:20:20,199 DEBUG Tentativas: []
+2024-07-28 15:20:20,199 DEBUG Vit�ria: True
+2024-07-28 15:20:20,199 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "POST / HTTP/1.1" 200 -
+2024-07-28 15:20:20,225 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:20:20,225 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:20:20,377 DEBUG Tentativa: caminho
+2024-07-28 15:20:20,379 DEBUG Palavra: caminho
+2024-07-28 15:20:20,379 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:20:20,379 DEBUG Tentativas Restantes: 5
+2024-07-28 15:20:20,379 DEBUG Tentativas: []
+2024-07-28 15:20:20,379 DEBUG Vit�ria: True
+2024-07-28 15:20:20,380 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "POST / HTTP/1.1" 200 -
+2024-07-28 15:20:20,403 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:20:20,405 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:20:20,540 DEBUG Tentativa: caminho
+2024-07-28 15:20:20,540 DEBUG Palavra: caminho
+2024-07-28 15:20:20,540 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:20:20,540 DEBUG Tentativas Restantes: 5
+2024-07-28 15:20:20,540 DEBUG Tentativas: []
+2024-07-28 15:20:20,540 DEBUG Vit�ria: True
+2024-07-28 15:20:20,541 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "POST / HTTP/1.1" 200 -
+2024-07-28 15:20:20,566 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:20:20,568 INFO 127.0.0.1 - - [28/Jul/2024 15:20:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:21:48,996 DEBUG Tentativa: caminho
+2024-07-28 15:21:48,998 DEBUG Palavra: caminho
+2024-07-28 15:21:48,998 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('m', 'correct'), ('i', 'correct'), ('n', 'correct'), ('h', 'correct'), ('o', 'correct')]
+2024-07-28 15:21:48,998 DEBUG Tentativas Restantes: 5
+2024-07-28 15:21:48,998 DEBUG Tentativas: []
+2024-07-28 15:21:48,998 DEBUG Vit�ria: True
+2024-07-28 15:21:48,998 INFO 127.0.0.1 - - [28/Jul/2024 15:21:48] "POST / HTTP/1.1" 200 -
+2024-07-28 15:21:49,024 INFO 127.0.0.1 - - [28/Jul/2024 15:21:49] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-28 15:21:49,025 INFO 127.0.0.1 - - [28/Jul/2024 15:21:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:21:59,046 DEBUG Tentativa: vtbttrv
+2024-07-28 15:21:59,046 DEBUG Palavra: caminho
+2024-07-28 15:21:59,046 DEBUG Resultado: [('v', 'default'), ('t', 'default'), ('b', 'default'), ('t', 'default'), ('t', 'default'), ('r', 'default'), ('v', 'default')]
+2024-07-28 15:21:59,046 DEBUG Tentativas Restantes: 5
+2024-07-28 15:21:59,046 DEBUG Tentativas: []
+2024-07-28 15:21:59,046 DEBUG Vit�ria: True
+2024-07-28 15:21:59,046 INFO 127.0.0.1 - - [28/Jul/2024 15:21:59] "POST / HTTP/1.1" 200 -
+2024-07-28 15:21:59,074 INFO 127.0.0.1 - - [28/Jul/2024 15:21:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:21:59,083 INFO 127.0.0.1 - - [28/Jul/2024 15:21:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:22:05,263 DEBUG Tentativa: carros
+2024-07-28 15:22:05,264 DEBUG Palavra: caminho
+2024-07-28 15:22:05,264 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')]
+2024-07-28 15:22:05,264 DEBUG Tentativas Restantes: 4
+2024-07-28 15:22:05,264 DEBUG Tentativas: [[('v', 'default'), ('t', 'default'), ('b', 'default'), ('t', 'default'), ('t', 'default'), ('r', 'default'), ('v', 'default')]]
+2024-07-28 15:22:05,264 DEBUG Vit�ria: True
+2024-07-28 15:22:05,265 INFO 127.0.0.1 - - [28/Jul/2024 15:22:05] "POST / HTTP/1.1" 200 -
+2024-07-28 15:22:05,299 INFO 127.0.0.1 - - [28/Jul/2024 15:22:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:22:05,301 INFO 127.0.0.1 - - [28/Jul/2024 15:22:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:22:20,027 DEBUG Tentativa: carros
+2024-07-28 15:22:20,027 DEBUG Palavra: caminho
+2024-07-28 15:22:20,027 DEBUG Resultado: [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')]
+2024-07-28 15:22:20,027 DEBUG Tentativas Restantes: 3
+2024-07-28 15:22:20,027 DEBUG Tentativas: [[('v', 'default'), ('t', 'default'), ('b', 'default'), ('t', 'default'), ('t', 'default'), ('r', 'default'), ('v', 'default')], [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')]]
+2024-07-28 15:22:20,027 DEBUG Vit�ria: True
+2024-07-28 15:22:20,028 INFO 127.0.0.1 - - [28/Jul/2024 15:22:20] "POST / HTTP/1.1" 200 -
+2024-07-28 15:22:20,053 INFO 127.0.0.1 - - [28/Jul/2024 15:22:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:22:20,054 INFO 127.0.0.1 - - [28/Jul/2024 15:22:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:22:46,522 DEBUG Tentativa: o
+2024-07-28 15:22:46,522 DEBUG Palavra: caminho
+2024-07-28 15:22:46,522 DEBUG Resultado: [('o', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 15:22:46,522 DEBUG Tentativas Restantes: 2
+2024-07-28 15:22:46,522 DEBUG Tentativas: [[('v', 'default'), ('t', 'default'), ('b', 'default'), ('t', 'default'), ('t', 'default'), ('r', 'default'), ('v', 'default')], [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')], [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')]]
+2024-07-28 15:22:46,522 DEBUG Vit�ria: True
+2024-07-28 15:22:46,523 INFO 127.0.0.1 - - [28/Jul/2024 15:22:46] "POST / HTTP/1.1" 200 -
+2024-07-28 15:22:46,551 INFO 127.0.0.1 - - [28/Jul/2024 15:22:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:22:46,560 INFO 127.0.0.1 - - [28/Jul/2024 15:22:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:22:47,415 DEBUG Tentativa: 
+2024-07-28 15:22:47,415 DEBUG Palavra: caminho
+2024-07-28 15:22:47,415 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 15:22:47,415 DEBUG Tentativas Restantes: 1
+2024-07-28 15:22:47,415 DEBUG Tentativas: [[('v', 'default'), ('t', 'default'), ('b', 'default'), ('t', 'default'), ('t', 'default'), ('r', 'default'), ('v', 'default')], [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')], [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')], [('o', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 15:22:47,415 DEBUG Vit�ria: True
+2024-07-28 15:22:47,416 INFO 127.0.0.1 - - [28/Jul/2024 15:22:47] "POST / HTTP/1.1" 200 -
+2024-07-28 15:22:47,444 INFO 127.0.0.1 - - [28/Jul/2024 15:22:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:22:47,445 INFO 127.0.0.1 - - [28/Jul/2024 15:22:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 15:23:51,734 DEBUG Tentativa: 
+2024-07-28 15:23:51,734 DEBUG Palavra: caminho
+2024-07-28 15:23:51,734 DEBUG Resultado: [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]
+2024-07-28 15:23:51,734 DEBUG Tentativas Restantes: 0
+2024-07-28 15:23:51,734 DEBUG Tentativas: [[('v', 'default'), ('t', 'default'), ('b', 'default'), ('t', 'default'), ('t', 'default'), ('r', 'default'), ('v', 'default')], [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')], [('c', 'correct'), ('a', 'correct'), ('r', 'default'), ('r', 'default'), ('o', 'incorrect'), ('s', 'default'), ('_', 'default')], [('o', 'incorrect'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')], [('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default'), ('_', 'default')]]
+2024-07-28 15:23:51,734 DEBUG Vit�ria: True
+2024-07-28 15:23:51,749 INFO 127.0.0.1 - - [28/Jul/2024 15:23:51] "POST / HTTP/1.1" 200 -
+2024-07-28 15:23:51,782 INFO 127.0.0.1 - - [28/Jul/2024 15:23:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-28 15:23:51,784 INFO 127.0.0.1 - - [28/Jul/2024 15:23:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-07-28 17:55:30,033 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-28 17:55:30,033 INFO [33mPress CTRL+C to quit[0m
+2024-07-28 17:55:30,038 INFO  * Restarting with stat
+2024-07-28 17:55:30,429 WARNING  * Debugger is active!
+2024-07-28 17:55:30,435 INFO  * Debugger PIN: 108-158-121
+2024-07-28 18:03:13,115 INFO  * Detected change in 'C:\\Users\\PC\\Documents\\GitHub\\jogo-da-cobrinha\\app.py', reloading
+2024-07-28 18:03:13,161 INFO  * Restarting with stat
+2024-07-28 18:07:37,300 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-28 18:07:37,301 INFO [33mPress CTRL+C to quit[0m
+2024-07-28 18:07:37,307 INFO  * Restarting with stat
+2024-07-28 18:07:37,626 WARNING  * Debugger is active!
+2024-07-28 18:07:37,632 INFO  * Debugger PIN: 108-158-121
+2024-07-28 18:08:34,227 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-28 18:08:34,227 INFO [33mPress CTRL+C to quit[0m
+2024-07-28 18:08:34,231 INFO  * Restarting with stat
+2024-07-28 18:08:34,595 WARNING  * Debugger is active!
+2024-07-28 18:08:34,602 INFO  * Debugger PIN: 108-158-121
+2024-07-28 18:08:36,917 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-28 18:08:36,917 INFO [33mPress CTRL+C to quit[0m
+2024-07-28 18:08:36,921 INFO  * Restarting with stat
+2024-07-28 18:08:37,285 WARNING  * Debugger is active!
+2024-07-28 18:08:37,291 INFO  * Debugger PIN: 108-158-121
+2024-07-28 18:29:36,426 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-28 18:29:36,427 INFO [33mPress CTRL+C to quit[0m
+2024-07-28 18:29:36,430 INFO  * Restarting with stat
+2024-07-28 18:29:36,756 WARNING  * Debugger is active!
+2024-07-28 18:29:36,762 INFO  * Debugger PIN: 108-158-121
+2024-07-28 18:30:34,933 INFO  * Detected change in 'c:\\Users\\PC\\Documents\\GitHub\\jogo-da-cobrinha\\app.py', reloading
+2024-07-28 18:30:34,976 INFO  * Restarting with stat
+2024-07-28 18:30:35,297 WARNING  * Debugger is active!
+2024-07-28 18:30:35,303 INFO  * Debugger PIN: 108-158-121
+2024-07-28 18:30:36,318 INFO  * Detected change in 'c:\\Users\\PC\\Documents\\GitHub\\jogo-da-cobrinha\\app.py', reloading
+2024-07-28 18:30:36,393 INFO  * Restarting with stat
+2024-07-28 18:30:36,743 WARNING  * Debugger is active!
+2024-07-28 18:30:36,750 INFO  * Debugger PIN: 108-158-121
+2024-07-28 18:37:32,930 INFO  * Detected change in 'c:\\Users\\PC\\Documents\\GitHub\\jogo-da-cobrinha\\app.py', reloading
+2024-07-28 18:37:32,973 INFO  * Restarting with stat
+2024-07-28 18:37:33,284 WARNING  * Debugger is active!
+2024-07-28 18:37:33,290 INFO  * Debugger PIN: 108-158-121

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_jogo_cobrinha.css') }}">
+    <title>Jogo da Cobrinha</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-neon">Jogo da Cobrinha</h1>
+    </header>
+    <canvas id="stage" width="600" height="600"></canvas>
+    <a href="{{ url_for('index') }}" class="button">Voltar para o Início</a>
+
+    <script src="{{ url_for('static', filename='js/cobrinha.js') }}"></script>
+</body>
+
+</html>
