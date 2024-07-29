@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 
 body{
-    background: url(img/background.jpg);
-    background-size: cover;
+    background: #1c2841;
 }
 h1{
     display: flex;
@@ -19,7 +18,7 @@ canvas{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border: 28px double #FF1F1F;
+    border: 28px double #9E8954;
     border-radius: 22px 22px 22px 22px;
     
 }

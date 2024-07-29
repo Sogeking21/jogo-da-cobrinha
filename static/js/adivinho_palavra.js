@@ -1,3 +1,4 @@
+console.log("JavaScript está funcionando!");
 document.addEventListener('DOMContentLoaded', () => {
     function checkLetter(index) {
         console.log(`checkLetter chamada com index: ${index}`);
